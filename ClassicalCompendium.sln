@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicalCompendium", "ClassicalCompendium\ClassicalCompendium.csproj", "{645133BB-A893-4E8B-8963-F889582A4CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicalCompendium.Tests", "ClassicalCompendium.Tests\ClassicalCompendium.Tests.csproj", "{A86ECB33-806C-4C08-ACEA-BD2709BD2851}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{645133BB-A893-4E8B-8963-F889582A4CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645133BB-A893-4E8B-8963-F889582A4CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645133BB-A893-4E8B-8963-F889582A4CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645133BB-A893-4E8B-8963-F889582A4CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86ECB33-806C-4C08-ACEA-BD2709BD2851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86ECB33-806C-4C08-ACEA-BD2709BD2851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86ECB33-806C-4C08-ACEA-BD2709BD2851}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03F330A5-2A44-4BAC-A107-F0DE812A33CD}
+	EndGlobalSection
+EndGlobal
