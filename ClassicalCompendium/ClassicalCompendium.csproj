@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <SignAssembly>False</SignAssembly>
-    <Version>0.0.1</Version>
-    <Company>Miiraak</Company>
+    <Version>$(VersionPrefix)</Version>
+    <Company>$(Authors)</Company>
     <Description>Compendium of things</Description>
   </PropertyGroup>
 
