@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <SignAssembly>False</SignAssembly>
-    <Version>$(VersionPrefix)</Version>
+    <Version>1.0.1.1</Version>
     <Company></Company>
     <Description>Compendium of things</Description>
 	<EnablePackageValidation>true</EnablePackageValidation>
