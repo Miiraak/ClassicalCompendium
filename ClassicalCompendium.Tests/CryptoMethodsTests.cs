@@ -10,7 +10,7 @@ namespace ClassicalCompendium.Tests
             Assert.Equal("BCD", CryptoMethods.CodeCesar(1, "ABC"));
             Assert.Equal("BC DE", CryptoMethods.CodeCesar(1, "AB CD"));
             Assert.Equal("BC DE FG", CryptoMethods.CodeCesar(1, "AB CD EF"));
-            Assert.Equal("BC DE FG HI !!", CryptoMethods.CodeCesar(1, "AB CD EF GH !!"));  
+            Assert.Equal("BC DE FG HI !!", CryptoMethods.CodeCesar(1, "AB CD EF GH !!"));
             Assert.Equal("A", CryptoMethods.CodeCesar(26, "A"));
             Assert.Equal("AB", CryptoMethods.CodeCesar(26, "AB"));
             Assert.Equal("ABC", CryptoMethods.CodeCesar(26, "ABC"));

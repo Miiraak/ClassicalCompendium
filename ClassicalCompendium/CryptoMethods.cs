@@ -1,16 +1,16 @@
 ﻿using System;
-using System.Linq;
 
 namespace ClassicalCompendium
 {
     public class CryptoMethods
     {
         /// <summary>
-        /// This method will return the converted string with the Cesar code.
+        /// This method will return the converted string with the Cesar code. 
         /// </summary>
         /// <param name="key">Key is the number of shift.</param>
         /// <param name="value">Value is the string to code.</param>
-        /// <returns></returns>
+        /// <returns>A string syphered with the Cesar code.</returns>
+        // Code by Orwell at https://openclassrooms.com/forum/sujet/c-probleme-de-chiffrement-de-cesare-94282
         public static string CodeCesar(int shift, string value)
         {
             int mod(int val, int m) => val % m + (val < 0 ? m : 0);
