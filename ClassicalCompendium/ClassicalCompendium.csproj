@@ -7,6 +7,8 @@
     <Company>$(Authors)</Company>
     <Description>Compendium of things</Description>
 	<EnablePackageValidation>true</EnablePackageValidation>
+	<PackageTags>Compendium; Cryptography</PackageTags>
+	<RepositoryUrl>https://github.com/Miiraak/ClassicalCompendium</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
