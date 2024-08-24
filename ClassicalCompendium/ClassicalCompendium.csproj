@@ -6,6 +6,7 @@
     <Version>$(VersionPrefix)</Version>
     <Company>$(Authors)</Company>
     <Description>Compendium of things</Description>
+	<EnablePackageValidation>true</EnablePackageValidation>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
