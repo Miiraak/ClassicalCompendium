@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <SignAssembly>False</SignAssembly>
     <Version>$(VersionPrefix)</Version>
-    <Company>$(Authors)</Company>
+    <Company></Company>
     <Description>Compendium of things</Description>
 	<EnablePackageValidation>true</EnablePackageValidation>
 	<PackageTags>Compendium; Cryptography</PackageTags>
@@ -13,6 +13,8 @@
 	<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<PackageIcon>icon.jpeg</PackageIcon>
+	<Authors>Miiraak</Authors>
+	<PackageId>ClassicalCompendium</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
