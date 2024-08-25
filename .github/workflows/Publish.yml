@@ -11,7 +11,7 @@ on:
       - '*'          # Run the workflow for all pull requests
   release:
     types:
-      - commits    # Run the workflow when a new GitHub release is published
+      - published    # Run the workflow when a new GitHub release is published
 
 env:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
