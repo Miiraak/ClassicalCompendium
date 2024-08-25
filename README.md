@@ -58,8 +58,6 @@ This project is licensed under the [LICENSE_NAME]. See the [LICENSE](./LICENSE) 
 ## Authors
 
 **Miiraak** - *Lead Developer* - [Profile](https://github.com/Miiraak)
-
-**Other Contributors** : 
 -  [---]()
 
 ---
