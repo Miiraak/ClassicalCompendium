@@ -19,7 +19,16 @@ namespace ClassicalCompendium.Tests
             Assert.Equal("AB CD EF GH", CryptoMethods.CodeCesar(26, "AB CD EF GH"));
             Assert.Equal("AB CD EF GH !!", CryptoMethods.CodeCesar(26, "AB CD EF GH !!"));
             Assert.Equal("2345678901", CryptoMethods.CodeCesar(1, "0123456789"));
+        }
 
+        [Fact]
+        public void CodeAtBashTest()
+        {
+            Assert.Equal("Z", CryptoMethods.AtBash("A"));
+            Assert.Equal("Z", CryptoMethods.AtBash("a"));
+            Assert.Equal("ZYXW", CryptoMethods.AtBash("AbCd"));
+            Assert.Equal("Z Y X W", CryptoMethods.AtBash("a B c D"));
+            Assert.Equal("!()#%&|╱|洱妍洹|#{[]育╡為", CryptoMethods.AtBash("!()#%&|╱|洱妍洹|#{[]育╡為"));
         }
     }
 }
