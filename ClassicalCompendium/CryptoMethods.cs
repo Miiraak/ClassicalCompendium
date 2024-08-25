@@ -23,7 +23,7 @@ namespace ClassicalCompendium
         /// <param name="value">Value is the string to code.</param>
         /// <returns>A string syphered with the Cesar code.</returns>
         // Code by Orwell at https://openclassrooms.com/forum/sujet/c-probleme-de-chiffrement-de-cesare-94282
-        public static string CodeCesar(int shift, string value)
+        public static string EncodeWithCesar(int shift, string value)
         {
             int mod(int val, int m) => val % m + (val < 0 ? m : 0);
 
@@ -43,7 +43,7 @@ namespace ClassicalCompendium
             return new String(chars);
         }
 
-        public static string AtBash(string Text)
+        public static string EncodeWithAtBash(string Text)
         {
             string output = "";
 
