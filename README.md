@@ -3,7 +3,7 @@
 ## Description
 ![example workflow](https://github.com/miiraak/classicalcompendium/actions/workflows/Publish.yml/badge.svg)
 
-CassicalCompendium is a versatile NuGet package that brings together a curated collection of widely-used C# utility methods, functions, and extensions commonly developed or copied across various projects. Instead of repeatedly writing or borrowing snippets of code, this package offers a comprehensive library of these classic methods, ensuring consistency, reducing redundancy, and speeding up development.
+ClassicalCompendium is a versatile NuGet package that brings together a curated collection of widely-used C# utility methods, functions, and extensions commonly developed or copied across various projects. Instead of repeatedly writing or borrowing snippets of code, this package offers a comprehensive library of these classic methods, ensuring consistency, reducing redundancy, and speeding up development.
 
 Whether you're dealing with string manipulations, collection handling, date-time operations, or other common tasks, CommonCodeCompendium has you covered with a reliable set of tools that have been tried and tested across numerous projects. Perfect for developers looking to streamline their workflow and maintain cleaner codebases, this package is your go-to resource for essential utilities.
 
