@@ -4,6 +4,12 @@ namespace ClassicalCompendium
 {
     public class RandomMethods
     {
+        /// <summary>
+        /// Takes two integers and returns a random integer between them.
+        /// </summary>
+        /// <param name="min"></param>
+        /// <param name="max"></param>
+        /// <returns></returns>
         public static int RandomInteger(int min, int max)
         {
             Random random = new Random();

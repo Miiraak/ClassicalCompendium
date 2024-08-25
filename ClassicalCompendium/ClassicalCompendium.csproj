@@ -3,11 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <SignAssembly>False</SignAssembly>
-    <Version>1.0.2.1</Version>
+    <Version>1.0.2.5</Version>
     <Company></Company>
-    <Description>Compendium of things</Description>
+    <Description>A collection of widely-used C# utility methods </Description>
 	<EnablePackageValidation>true</EnablePackageValidation>
-	<PackageTags>Compendium; Cryptography</PackageTags>
+	<PackageTags>Compendium; Random; Cryptography</PackageTags>
 	<RepositoryUrl>https://github.com/Miiraak/ClassicalCompendium</RepositoryUrl>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageLicenseFile>LICENSE</PackageLicenseFile>
@@ -16,8 +16,8 @@
 	<Authors>Miiraak</Authors>
 	<PackageId>ClassicalCompendium</PackageId>
 	<PackageProjectUrl>https://www.nuget.org/packages/ClassicalCompendium</PackageProjectUrl>
-	<AssemblyVersion>1.0.2.1</AssemblyVersion>
-	<FileVersion>1.0.2.1</FileVersion>
+	<AssemblyVersion>1.0.2.5</AssemblyVersion>
+	<FileVersion>1.0.2.5</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
