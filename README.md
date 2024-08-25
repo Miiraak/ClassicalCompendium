@@ -1,8 +1,7 @@
 # Classical Compendium
 
 ## Description
-![example workflow](https://github.com/miiraak/classicalcompendium/actions/workflows/Publish.yml/badge.svg) <br>
-[...In work...]
+![example workflow](https://github.com/miiraak/classicalcompendium/actions/workflows/Publish.yml/badge.svg)
 
 ## Features
 Crypto :
