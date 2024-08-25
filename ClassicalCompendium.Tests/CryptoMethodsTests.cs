@@ -30,5 +30,64 @@ namespace ClassicalCompendium.Tests
             Assert.Equal("Z Y X W", CryptoMethods.EncodeWithAtBash("a B c D"));
             Assert.Equal("!()#%&|╱|洱妍洹|#{[]育╡為", CryptoMethods.EncodeWithAtBash("!()#%&|╱|洱妍洹|#{[]育╡為"));
         }
+
+        [Fact]
+        public void RandomIntegerTest()
+        {
+            int min = 0;
+            int max = 100;
+            int random = RandomMethods.RandomInteger(min, max);
+            Assert.True(random >= min && random < max);
+            min = -100;
+            max = 0;
+            random = RandomMethods.RandomInteger(min, max);
+            Assert.True(random >= min && random < max);
+        }
+
+        [Fact]
+        public void RandomDoubleTest()
+        {
+            double min = 0;
+            double max = 100;
+            double random = RandomMethods.RandomDouble(min, max);
+            Assert.True(random >= min && random < max);
+            min = -100;
+            max = 0;
+            random = RandomMethods.RandomDouble(min, max);
+            Assert.True(random >= min && random < max);
+        }
+
+        [Fact]
+        public void RandomStringTest()
+        {
+            int length = 10;
+            string random = RandomMethods.RandomString(length);
+            Assert.Equal(length, random.Length);
+            length = 100;
+            random = RandomMethods.RandomString(length);
+            Assert.Equal(length, random.Length);
+        }
+
+        [Fact]
+        public void RandomBooleanTest()
+        {
+            bool random = RandomMethods.RandomBoolean();
+            Assert.True(random == true || random == false);
+            random = RandomMethods.RandomBoolean();
+            Assert.True(random == true || random == false);
+        }
+
+        [Fact]
+        public void RandomLongTest()
+        {
+            long min = 0;
+            long max = 100;
+            long random = RandomMethods.RandomLong(min, max);
+            Assert.True(random >= min && random < max);
+            min = -100;
+            max = 0;
+            random = RandomMethods.RandomLong(min, max);
+            Assert.True(random >= min && random < max);
+        }
     }
 }
