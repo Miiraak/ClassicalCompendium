@@ -26,6 +26,9 @@ Random :
 | **Date-Time Operations** | Simplified date and time calculations, parsing, and formatting. | 
 | **Math Utilities** | Handy functions for common mathematical operations. | 
 | **Error Handling** | Robust techniques to manage exceptions and errors effectively. | 
+| ... | ... |
+
+For more look at : [Features & Ideas](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features%26Ideas.md)
 
 ## Prerequisites
 
@@ -53,7 +56,7 @@ If you encounter any issues or have suggestions for improving the project, pleas
 
 ## License
 
-This project is licensed under the [LICENSE_NAME]. See the [LICENSE](./LICENSE) file for more details.
+This project is licensed under the [MIT]. See the [LICENSE](./LICENSE) file for more details.
 
 ## Authors
 
