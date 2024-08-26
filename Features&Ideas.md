@@ -4,7 +4,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ## Index :
 - [Random Number Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#1-random-number-utilities)
-- [String Manipulation](https://github.com/Miiraak/ClassicalCompendium/edit/master/Features&Ideas.md#2-string-manipulation)
+- [String Manipulation](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#2-string-manipulation)
 - Date and Time Utilities
 - File and Directory Utilities
 - Collection Utilities
