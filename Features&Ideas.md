@@ -5,24 +5,24 @@ Feel free the discuss about them, or make request for non listed ones.
 ## Index :
 - [Random Number Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#1-random-number-utilities)
 - [String Manipulation](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#2-string-manipulation)
-- Date and Time Utilities
-- File and Directory Utilities
-- Collection Utilities
-- Math Utilities
-- Validation Utilities
-- Conversion Utilities
-- Reflection and Type Utilities
-- Threading and Asynchronous Utilities
-- Network Utilities
-- Data Structure Utilities
-- Serialization and Deserialization
-- Encryption and Hashing
-- Error Handling Utilities
-- Configuration and Environment Utilities
-- Localization and Internationalization
-- GUI and User Interaction Utilities
-- Debugging and Diagnostics
-- Miscellaneous Utilities
+- [Date and Time Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#3-date-and-time-utilities)
+- [File and Directory Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#4-file-and-directory-utilities)
+- [Collection Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#5-collection-utilities)
+- [Math Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#6-math-utilities)
+- [Validation Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#7-validation-utilities)
+- [Conversion Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#8-conversion-utilities)
+- [Reflection and Type Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#9-reflection-and-type-utilities)
+- [Threading and Asynchronous Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#10-threading-and-asynchronous-utilities)
+- [Network Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#11-network-utilities)
+- [Data Structure Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#12-data-structure-utilities)
+- [Serialization and Deserialization](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#13-serialization-and-deserialization)
+- [Encryption and Hashing](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#14-encryption-and-hashing)
+- [Error Handling Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#15-error-handling-utilities)
+- [Configuration and Environment Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#16-configuration-and-environment-utilities)
+- [Localization and Internationalization](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#17-localization-and-internationalization)
+- [GUI and User Interaction Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#18-gui-and-user-interaction-utilities)
+- [Debugging and Diagnostics](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#19-debugging-and-diagnostics)
+- [Miscellaneous Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#20-miscellaneous-utilities)
 
 ---
 
