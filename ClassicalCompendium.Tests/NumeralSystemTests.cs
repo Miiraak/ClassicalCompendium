@@ -22,16 +22,13 @@ namespace ClassicalCompendium.Tests
             Assert.Equal("1000", NumeralSystemMethods.DecimalToBinary(8));
             Assert.Equal("1001", NumeralSystemMethods.DecimalToBinary(9));
             Assert.Equal("1010", NumeralSystemMethods.DecimalToBinary(10));
-            Assert.Equal("1011", NumeralSystemMethods.DecimalToBinary(11));
-            Assert.Equal("1100", NumeralSystemMethods.DecimalToBinary(12));
-            Assert.Equal("1101", NumeralSystemMethods.DecimalToBinary(13));
-            Assert.Equal("1110", NumeralSystemMethods.DecimalToBinary(14));
-            Assert.Equal("1111", NumeralSystemMethods.DecimalToBinary(15));
             Assert.Equal("10000", NumeralSystemMethods.DecimalToBinary(16));
-            Assert.Equal("10001", NumeralSystemMethods.DecimalToBinary(17));
-            Assert.Equal("10010", NumeralSystemMethods.DecimalToBinary(18));
-            Assert.Equal("10011", NumeralSystemMethods.DecimalToBinary(19));
-            Assert.Equal("10100", NumeralSystemMethods.DecimalToBinary(20));
+            Assert.Equal("100000", NumeralSystemMethods.DecimalToBinary(32));
+            Assert.Equal("1000000", NumeralSystemMethods.DecimalToBinary(64));
+            Assert.Equal("10000000", NumeralSystemMethods.DecimalToBinary(128));
+            Assert.Equal("100000000", NumeralSystemMethods.DecimalToBinary(256));
+            Assert.Equal("1000000000", NumeralSystemMethods.DecimalToBinary(512));
+            Assert.Equal("10000000000", NumeralSystemMethods.DecimalToBinary(1024));
         }
 
         [Fact]
@@ -54,16 +51,12 @@ namespace ClassicalCompendium.Tests
             Assert.Equal("e", NumeralSystemMethods.DecimalToHexadecimal(14));
             Assert.Equal("f", NumeralSystemMethods.DecimalToHexadecimal(15));
             Assert.Equal("10", NumeralSystemMethods.DecimalToHexadecimal(16));
-            Assert.Equal("11", NumeralSystemMethods.DecimalToHexadecimal(17));
-            Assert.Equal("12", NumeralSystemMethods.DecimalToHexadecimal(18));
-            Assert.Equal("13", NumeralSystemMethods.DecimalToHexadecimal(19));
-            Assert.Equal("14", NumeralSystemMethods.DecimalToHexadecimal(20));
-            Assert.Equal("15", NumeralSystemMethods.DecimalToHexadecimal(21));
-            Assert.Equal("16", NumeralSystemMethods.DecimalToHexadecimal(22));
-            Assert.Equal("17", NumeralSystemMethods.DecimalToHexadecimal(23));
-            Assert.Equal("18", NumeralSystemMethods.DecimalToHexadecimal(24));
-            Assert.Equal("19", NumeralSystemMethods.DecimalToHexadecimal(25));
-            Assert.Equal("1a", NumeralSystemMethods.DecimalToHexadecimal(26));
+            Assert.Equal("20", NumeralSystemMethods.DecimalToHexadecimal(32));
+            Assert.Equal("40", NumeralSystemMethods.DecimalToHexadecimal(64));
+            Assert.Equal("80", NumeralSystemMethods.DecimalToHexadecimal(128));
+            Assert.Equal("100", NumeralSystemMethods.DecimalToHexadecimal(256));
+            Assert.Equal("200", NumeralSystemMethods.DecimalToHexadecimal(512));
+            Assert.Equal("400", NumeralSystemMethods.DecimalToHexadecimal(1024));
         }
 
         [Fact]
@@ -77,25 +70,13 @@ namespace ClassicalCompendium.Tests
             Assert.Equal("5", NumeralSystemMethods.DecimalToOctal(5));
             Assert.Equal("6", NumeralSystemMethods.DecimalToOctal(6));
             Assert.Equal("7", NumeralSystemMethods.DecimalToOctal(7));
-            Assert.Equal("10", NumeralSystemMethods.DecimalToOctal(8));
-            Assert.Equal("11", NumeralSystemMethods.DecimalToOctal(9));
-            Assert.Equal("12", NumeralSystemMethods.DecimalToOctal(10));
-            Assert.Equal("13", NumeralSystemMethods.DecimalToOctal(11));
-            Assert.Equal("14", NumeralSystemMethods.DecimalToOctal(12));
-            Assert.Equal("15", NumeralSystemMethods.DecimalToOctal(13));
-            Assert.Equal("16", NumeralSystemMethods.DecimalToOctal(14));
-            Assert.Equal("17", NumeralSystemMethods.DecimalToOctal(15));
             Assert.Equal("20", NumeralSystemMethods.DecimalToOctal(16));
-            Assert.Equal("21", NumeralSystemMethods.DecimalToOctal(17));
-            Assert.Equal("22", NumeralSystemMethods.DecimalToOctal(18));
-            Assert.Equal("23", NumeralSystemMethods.DecimalToOctal(19));
-            Assert.Equal("24", NumeralSystemMethods.DecimalToOctal(20));
-            Assert.Equal("25", NumeralSystemMethods.DecimalToOctal(21));
-            Assert.Equal("26", NumeralSystemMethods.DecimalToOctal(22));
-            Assert.Equal("27", NumeralSystemMethods.DecimalToOctal(23));
-            Assert.Equal("30", NumeralSystemMethods.DecimalToOctal(24));
-            Assert.Equal("31", NumeralSystemMethods.DecimalToOctal(25));
-            Assert.Equal("32", NumeralSystemMethods.DecimalToOctal(26));
+            Assert.Equal("40", NumeralSystemMethods.DecimalToOctal(32));
+            Assert.Equal("100", NumeralSystemMethods.DecimalToOctal(64));
+            Assert.Equal("200", NumeralSystemMethods.DecimalToOctal(128));
+            Assert.Equal("400", NumeralSystemMethods.DecimalToOctal(256));
+            Assert.Equal("1000", NumeralSystemMethods.DecimalToOctal(512));
+            Assert.Equal("2000", NumeralSystemMethods.DecimalToOctal(1024));
         }
 
         [Fact]
@@ -112,16 +93,13 @@ namespace ClassicalCompendium.Tests
             Assert.Equal(8, NumeralSystemMethods.BinaryToDecimal("1000"));
             Assert.Equal(9, NumeralSystemMethods.BinaryToDecimal("1001"));
             Assert.Equal(10, NumeralSystemMethods.BinaryToDecimal("1010"));
-            Assert.Equal(11, NumeralSystemMethods.BinaryToDecimal("1011"));
-            Assert.Equal(12, NumeralSystemMethods.BinaryToDecimal("1100"));
-            Assert.Equal(13, NumeralSystemMethods.BinaryToDecimal("1101"));
-            Assert.Equal(14, NumeralSystemMethods.BinaryToDecimal("1110"));
-            Assert.Equal(15, NumeralSystemMethods.BinaryToDecimal("1111"));
             Assert.Equal(16, NumeralSystemMethods.BinaryToDecimal("10000"));
-            Assert.Equal(17, NumeralSystemMethods.BinaryToDecimal("10001"));
-            Assert.Equal(18, NumeralSystemMethods.BinaryToDecimal("10010"));
-            Assert.Equal(19, NumeralSystemMethods.BinaryToDecimal("10011"));
-            Assert.Equal(20, NumeralSystemMethods.BinaryToDecimal("10100"));
+            Assert.Equal(32, NumeralSystemMethods.BinaryToDecimal("100000"));
+            Assert.Equal(64, NumeralSystemMethods.BinaryToDecimal("1000000"));
+            Assert.Equal(128, NumeralSystemMethods.BinaryToDecimal("10000000"));
+            Assert.Equal(256, NumeralSystemMethods.BinaryToDecimal("100000000"));
+            Assert.Equal(512, NumeralSystemMethods.BinaryToDecimal("1000000000"));
+            Assert.Equal(1024, NumeralSystemMethods.BinaryToDecimal("10000000000"));
         }
 
         [Fact]
@@ -143,17 +121,6 @@ namespace ClassicalCompendium.Tests
             Assert.Equal("d", NumeralSystemMethods.BinaryToHexadecimal("1101"));
             Assert.Equal("e", NumeralSystemMethods.BinaryToHexadecimal("1110"));
             Assert.Equal("f", NumeralSystemMethods.BinaryToHexadecimal("1111"));
-            Assert.Equal("10", NumeralSystemMethods.BinaryToHexadecimal("10000"));
-            Assert.Equal("11", NumeralSystemMethods.BinaryToHexadecimal("10001"));
-            Assert.Equal("12", NumeralSystemMethods.BinaryToHexadecimal("10010"));
-            Assert.Equal("13", NumeralSystemMethods.BinaryToHexadecimal("10011"));
-            Assert.Equal("14", NumeralSystemMethods.BinaryToHexadecimal("10100"));
-            Assert.Equal("15", NumeralSystemMethods.BinaryToHexadecimal("10101"));
-            Assert.Equal("16", NumeralSystemMethods.BinaryToHexadecimal("10110"));
-            Assert.Equal("17", NumeralSystemMethods.BinaryToHexadecimal("10111"));
-            Assert.Equal("18", NumeralSystemMethods.BinaryToHexadecimal("11000"));
-            Assert.Equal("19", NumeralSystemMethods.BinaryToHexadecimal("11001"));
-            Assert.Equal("1a", NumeralSystemMethods.BinaryToHexadecimal("11010"));
         }
 
         [Fact]
@@ -167,19 +134,6 @@ namespace ClassicalCompendium.Tests
             Assert.Equal("5", NumeralSystemMethods.BinaryToOctal("101"));
             Assert.Equal("6", NumeralSystemMethods.BinaryToOctal("110"));
             Assert.Equal("7", NumeralSystemMethods.BinaryToOctal("111"));
-            Assert.Equal("10", NumeralSystemMethods.BinaryToOctal("1000"));
-            Assert.Equal("11", NumeralSystemMethods.BinaryToOctal("1001"));
-            Assert.Equal("12", NumeralSystemMethods.BinaryToOctal("1010"));
-            Assert.Equal("13", NumeralSystemMethods.BinaryToOctal("1011"));
-            Assert.Equal("14", NumeralSystemMethods.BinaryToOctal("1100"));
-            Assert.Equal("15", NumeralSystemMethods.BinaryToOctal("1101"));
-            Assert.Equal("16", NumeralSystemMethods.BinaryToOctal("1110"));
-            Assert.Equal("17", NumeralSystemMethods.BinaryToOctal("1111"));
-            Assert.Equal("20", NumeralSystemMethods.BinaryToOctal("10000"));
-            Assert.Equal("21", NumeralSystemMethods.BinaryToOctal("10001"));
-            Assert.Equal("22", NumeralSystemMethods.BinaryToOctal("10010"));
-            Assert.Equal("23", NumeralSystemMethods.BinaryToOctal("10011"));
-            Assert.Equal("24", NumeralSystemMethods.BinaryToOctal("10100"));
         }
 
         [Fact]

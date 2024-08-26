@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Security.Cryptography;
 using System.Text;
 
 namespace ClassicalCompendium
@@ -21,7 +20,7 @@ namespace ClassicalCompendium
         /// <summary>
         /// This method will return the converted string with the Cesar code. 
         /// </summary>
-        /// <param name="key">Key is the number of shift.</param>
+        /// <param name="shift">Key is the number of shift.</param>
         /// <param name="value">Value is the string to code.</param>
         /// <returns>A string syphered with the Cesar code.</returns>
         // Code by Orwell at https://openclassrooms.com/forum/sujet/c-probleme-de-chiffrement-de-cesare-94282
@@ -63,9 +62,9 @@ namespace ClassicalCompendium
             return output;
         }
 
-        public static string DoSHA256(string text)
+        public static string SHA256(string text)
         {
-            using (var sha256 = SHA256.Create())
+            using (var sha256 = System.Security.Cryptography.SHA256.Create())
             {
                 byte[] bytes = Encoding.UTF8.GetBytes(text);
                 byte[] hash = sha256.ComputeHash(bytes);
