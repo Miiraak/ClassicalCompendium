@@ -8,11 +8,11 @@ Feel free the discuss about them, or make request for non listed ones.
 
 | Status :    | Purpose : |
 | :-------- | :------- |
-| ⚫ | Generate a random integer within a range. |
-| ⚫ | Generate a random double within a range. |
-| ⚫ | Generate a random boolean value. |
-| ⚫ | Generate a random string value based on lenght. |
-| ⚫ | Generate a random long value. |
+| 🟠 | Generate a random integer within a range. |
+| 🟠 | Generate a random double within a range. |
+| 🟠 | Generate a random boolean value. |
+| 🟠 | Generate a random string value based on lenght. |
+| 🟠 | Generate a random long value. |
 | ⚫ | Select a random element from a list. |
 | ⚫ | Generate a random alphanumeric string. |
 | ⚫ | ... |
@@ -205,8 +205,8 @@ Feel free the discuss about them, or make request for non listed ones.
 
 | Status :    | Purpose : |
 | :-------- | :------- |
-| ⚫ | Encode a string with code Casear. |
-| ⚫ | Encode a string with AtBash. |
+| 🟠 | Encode a string with code Casear. |
+| 🟠 | Encode a string with AtBash. |
 | ⚫ | Encode a string with Base64. |
 | ⚫ | Encode a string with Scytale. |
 | ⚫ | Encode a string with RailFencer. |
