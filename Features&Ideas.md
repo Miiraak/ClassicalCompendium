@@ -148,7 +148,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 | Status :    | Purpose : |
 | :-------- | :------- |
-| ⚫ | Convert an integer to a binary, hexadecimal, or octal string. |
+| 🟠 | Convert an integer to a binary, hexadecimal, or octal string. |
 | ⚫ | Convert a binary, hexadecimal, or octal string to an integer. |
 | ⚫ | Convert a DateTime to a UNIX timestamp and vice versa. |
 | ⚫ | Convert a collection to a comma-separated string. |
