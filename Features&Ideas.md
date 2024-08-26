@@ -15,6 +15,7 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Generate a random long value. |
 | ⚫ | Select a random element from a list. |
 | ⚫ | Generate a random alphanumeric string. |
+| ⚫ | ... |
 
 ---
 
