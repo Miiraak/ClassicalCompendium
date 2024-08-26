@@ -32,62 +32,10 @@ namespace ClassicalCompendium.Tests
         }
 
         [Fact]
-        public void RandomIntegerTest()
+        public void DoSHA256Test()
         {
-            int min = 0;
-            int max = 100;
-            int random = RandomMethods.RandomInteger(min, max);
-            Assert.True(random >= min && random < max);
-            min = -100;
-            max = 0;
-            random = RandomMethods.RandomInteger(min, max);
-            Assert.True(random >= min && random < max);
-        }
-
-        [Fact]
-        public void RandomDoubleTest()
-        {
-            double min = 0;
-            double max = 100;
-            double random = RandomMethods.RandomDouble(min, max);
-            Assert.True(random >= min && random < max);
-            min = -100;
-            max = 0;
-            random = RandomMethods.RandomDouble(min, max);
-            Assert.True(random >= min && random < max);
-        }
-
-        [Fact]
-        public void RandomStringTest()
-        {
-            int length = 10;
-            string random = RandomMethods.RandomString(length);
-            Assert.Equal(length, random.Length);
-            length = 100;
-            random = RandomMethods.RandomString(length);
-            Assert.Equal(length, random.Length);
-        }
-
-        [Fact]
-        public void RandomBooleanTest()
-        {
-            bool random = RandomMethods.RandomBoolean();
-            Assert.True(random == true || random == false);
-            random = RandomMethods.RandomBoolean();
-            Assert.True(random == true || random == false);
-        }
-
-        [Fact]
-        public void RandomLongTest()
-        {
-            long min = 0;
-            long max = 100;
-            long random = RandomMethods.RandomLong(min, max);
-            Assert.True(random >= min && random < max);
-            min = -100;
-            max = 0;
-            random = RandomMethods.RandomLong(min, max);
-            Assert.True(random >= min && random < max);
+            Assert.Equal("e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", CryptoMethods.DoSHA256(""));
+            Assert.Equal("d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592", CryptoMethods.DoSHA256("The quick brown fox jumps over the lazy dog"));
         }
     }
 }

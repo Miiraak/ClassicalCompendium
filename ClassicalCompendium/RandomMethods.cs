@@ -5,23 +5,10 @@ namespace ClassicalCompendium
     public class RandomMethods
     {
         /// <summary>
-        /// Takes two integers and returns a random integer between them.
+        /// Takes a length and returns a random string of that length.
         /// </summary>
-        /// <param name="min"></param>
-        /// <param name="max"></param>
-        /// <returns></returns>
-        public static int RandomInteger(int min, int max)
-        {
-            Random random = new Random();
-            return random.Next(min, max);
-        }
-
-        public static double RandomDouble(double min, double max)
-        {
-            Random random = new Random();
-            return random.NextDouble() * (max - min) + min;
-        }
-
+        /// <param name="length"></param> 
+        /// <returns>A random string</returns>
         public static string RandomString(int length)
         {
             Random random = new Random();
@@ -34,12 +21,46 @@ namespace ClassicalCompendium
             return new string(randomString);
         }
 
+        /// <summary>
+        /// Returns a random boolean.
+        /// </summary>
+        /// <returns>A random bool</returns>
         public static bool RandomBoolean()
         {
             Random random = new Random();
             return random.Next(0, 2) == 0;
         }
-            
+
+        /// <summary>
+        /// Takes two integers and returns a random integer between them.
+        /// </summary>
+        /// <param name="min">Is the minimum value.</param>
+        /// <param name="max">Is the maximum value.</param>
+        /// <returns>A random integer</returns>
+        public static int RandomInteger(int min, int max)
+        {
+            Random random = new Random();
+            return random.Next(min, max + 1);
+        }
+
+        /// <summary>
+        /// Takes two doubles and returns a random double between them.
+        /// </summary>
+        /// <param name="min">Is the minimum value.</param>
+        /// <param name="max">Is the maximum value.</param>
+        /// <returns>A random double</returns>
+        public static double RandomDouble(double min, double max)
+        {
+            Random random = new Random();
+            return random.NextDouble() * (max - min) + min;
+        }
+
+        /// <summary>
+        /// Returns a random long.
+        /// </summary>
+        /// <param name="min">Is the minimum value.</param>
+        /// <param name="max">Is the maximum value.</param>
+        /// <returns></returns>
         public static long RandomLong(long min, long max)
         {
             Random random = new Random();
