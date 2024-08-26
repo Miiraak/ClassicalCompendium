@@ -2,6 +2,28 @@
 You can find here all ideas or planned functions that will be implemented in the package.
 Feel free the discuss about them, or make request for non listed ones.
 
+## Index :
+- [Random Number Utilities](https://github.com/Miiraak/ClassicalCompendium/edit/master/Features%26Ideas.md#1-random-number-utilities)
+- [String Manipulation](https://github.com/Miiraak/ClassicalCompendium/edit/master/Features%26Ideas.md#2-string-manipulation)
+- Date and Time Utilities
+- File and Directory Utilities
+- Collection Utilities
+- Math Utilities
+- Validation Utilities
+- Conversion Utilities
+- Reflection and Type Utilities
+- Threading and Asynchronous Utilities
+- Network Utilities
+- Data Structure Utilities
+- Serialization and Deserialization
+- Encryption and Hashing
+- Error Handling Utilities
+- Configuration and Environment Utilities
+- Localization and Internationalization
+- GUI and User Interaction Utilities
+- Debugging and Diagnostics
+- Miscellaneous Utilities
+
 ---
 
 ### 1. Random Number Utilities
