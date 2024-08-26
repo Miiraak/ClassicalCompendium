@@ -2,7 +2,7 @@
 You can find here all ideas or planned functions that will be implemented in the package.
 Feel free the discuss about them, or make request for non listed ones.
 
-## Index :
+## Table of content :
 - [Random Number Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#1-random-number-utilities)
 - [String Manipulation](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#2-string-manipulation)
 - [Date and Time Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#3-date-and-time-utilities)
@@ -54,6 +54,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Replace multiple spaces with a single space. |
 | ⚫ | ... |
 
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+
 ---
 
 ### 3. Date and Time Utilities
@@ -70,6 +72,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Convert UNIX timestamp to DateTime and vice versa. |
 | ⚫ | ... |
 
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+
 ---
 
 ### 4. File and Directory Utilities
@@ -84,6 +88,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Append text to a file. |
 | ⚫ | Get the size of a file in bytes. |
 | ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
     
 ---
 
@@ -102,6 +108,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Convert a list to a dictionary with a specified key selector. |
 | ⚫ | ... |
 
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+
 ---
 
 ### 6. Math Utilities
@@ -117,6 +125,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Round a number to the nearest integer, or to a specific number of decimal places. |
 | ⚫ | ... |
 
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+
 ---
 
 ### 7. Validation Utilities
@@ -129,6 +139,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Validate if a string matches a regular expression pattern. |
 | ⚫ | Validate if a file path is valid and accessible. |
 | ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
 
 ---
 
@@ -145,6 +157,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Convert a file to a base64 string and vice versa. |
 | ⚫ | ... |
 
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+
 ---
 
 ### 9. Reflection and Type Utilities
@@ -159,6 +173,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Get the assembly name of a class or method. |
 | ⚫ | Create an instance of a class dynamically. |
 | ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
 
 ---
 
@@ -175,6 +191,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Use a semaphore to limit concurrent task execution. |
 | ⚫ | Run a background task and report progress. |
 | ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
     
 ---
 
@@ -191,6 +209,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Send an email with attachments. |
 | ⚫ | Fetch DNS records for a domain. |
 | ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
     
 ---
 
@@ -208,6 +228,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Implement a trie (prefix tree) for efficient string searching. |
 | ⚫ | ... |
 
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+
 ---
 
 ### 13. Serialization and Deserialization
@@ -220,6 +242,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Pretty-print a JSON string. |
 | ⚫ | Serialize an object to a file and deserialize it back. |
 | ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
 
 ---
 
@@ -234,11 +258,14 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Encode a string with RailFencer. |
 | ⚫ | Encode a string with Playfair. |
 | ⚫ | Encrypt and decrypt a string using symmetric encryption (e.g., AES). |
-| ⚫ | Generate and verify a hash (e.g., SHA256) of a string. |
+| 🟠 | Generate a hash (e.g., SHA256) of a string. |
+| ⚫ | Verify a hash (e.g., SHA256) of a string. |
 | ⚫ | Generate a salt and hash a password. |
 | ⚫ | Encrypt and decrypt a file. |
 | ⚫ | Sign and verify data using a digital signature. |
 | ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
 
 ---
 
@@ -252,6 +279,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Rethrow an exception with additional context. |
 | ⚫ | Capture and log unhandled exceptions globally. |
 | ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
 
 ---
 
@@ -267,6 +296,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Parse command-line arguments. |
 | ⚫ | ... |
 
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+
 ---
 
 ### 17. Localization and Internationalization
@@ -280,6 +311,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Convert a number to words (e.g., "123" to "one hundred twenty-three"). |
 | ⚫ | Implement a simple translation service. |
 | ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
 
 ---
 
@@ -295,6 +328,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Capture a screenshot of the current window or screen. |
 | ⚫ | ... |
 
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+
 ---
 
 ### 19. Debugging and Diagnostics
@@ -308,6 +343,8 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Create a simple performance profiler. |
 | ⚫ | Track the time taken by individual methods. |
 | ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
 
 ---
 
@@ -324,5 +361,7 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Detect changes in a file or directory using file system watchers. |
 | ⚫ | Implement a rate limiter for controlling access to a resource.  |
 | ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
 
 ---
