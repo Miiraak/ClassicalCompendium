@@ -7,18 +7,7 @@ ClassicalCompendium is a versatile NuGet package that brings together a curated 
 
 Whether you're dealing with string manipulations, collection handling, date-time operations, or other common tasks, CommonCodeCompendium has you covered with a reliable set of tools that have been tried and tested across numerous projects. Perfect for developers looking to streamline their workflow and maintain cleaner codebases, this package is your go-to resource for essential utilities.
 
-## Features
-Crypto :
-- `EncodeWithCesar(int shift, string value)` : Return a casear encoded string with define shift.
-- `EncodeWithAtBash(string Text)` : Return a AtBash encoded string.
-Random :
-- `RandomInteger(int min, int max)` : Return a random `integer` bewteen `min` and `max`.
-- `RandomDouble(double min, double max)` : Return a random `double` between `min` and `max`.
-- `RandomString(int length)` : Return a random string of `length` char.
-- `RandomBoolean()` : Return a random `bool`.
-- `RandomLong(long min, long max)` : Return a random `long` between `min` and `max`.
-
-### Features / Ideas in development
+## Features / Ideas in development
 | Name : | Description : |
 |---|---|
 | **String Manipulation** | Essential methods for trimming, formatting, and validating strings. | 
