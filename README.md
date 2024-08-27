@@ -47,4 +47,7 @@ This project is licensed under the [MIT]. See the [LICENSE](./LICENSE) file for 
 **Miiraak** - *Lead Developer* - [Profile](https://github.com/Miiraak)
 -  [---]()
 
+## Thanks to 🫀
+- [Orwell](https://openclassrooms.com/fr/members/4962pd63nmm2) found on [OC Forum](https://openclassrooms.com/forum/sujet/c-probleme-de-chiffrement-de-cesare-94282)
+
 ---
