@@ -23,7 +23,7 @@ Before running the project, make sure you have the following installed:
 
 ## Usage
 ```
-dotnet add package ClassicalCompendium --version 1.0.2.5
+dotnet add package ClassicalCompendium --version 1.0.4
 ```
 
 ## Contributing
