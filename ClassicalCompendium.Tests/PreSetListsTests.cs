@@ -8,7 +8,7 @@
             Assert.Equal("January", PreSetLists.Time.Months[0]);
             Assert.Equal("February", PreSetLists.Time.Months[1]);
             Assert.Equal("March", PreSetLists.Time.Months[2]);
-            Assert.Equal(12, PreSetLists.Time.Months.Count());
+            Assert.Equal(12, PreSetLists.Time.Months.Count);
         }
 
         [Fact]
@@ -18,7 +18,7 @@
             Assert.Equal("Tuesday", PreSetLists.Time.WeekDays[1]);
             Assert.Equal("Wednesday", PreSetLists.Time.WeekDays[2]);
             Assert.Equal(7, PreSetLists.Time.WeekDays.Count);
-        }                                                     
+        }
 
         [Fact]
         public void HoursTests()
@@ -53,4 +53,4 @@
             Assert.Equal(214, PreSetLists.Country.OfficialLanguages.Count);
         }
     }
-}                          
+}
