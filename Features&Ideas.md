@@ -4,6 +4,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ## Table of content :
 - [Random Number Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#1-random-number-utilities)
+- [Preset lists]()
 - [String Manipulation](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#2-string-manipulation)
 - [Date and Time Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#3-date-and-time-utilities)
 - [File and Directory Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#4-file-and-directory-utilities)
@@ -30,6 +31,19 @@ Feel free the discuss about them, or make request for non listed ones.
 
 | Status :    | Purpose : |
 | :-------- | :------- |
+| ⚫ | A List<string> of Months. |
+| ⚫ | A List<string> of Days. |
+| ⚫ | A List<string> of Hours. |
+| ⚫ | A tuple <string, string, string, int> of ISO-3166 Country name. |
+| ⚫ | A List<string> of most used langages. |
+| ⚫ | A List<string> of Official langages. |
+| ⚫ | ... |
+
+---
+
+### 2. Preset Lists
+| Status :    | Purpose : |
+| :-------- | :------- |
 | 🟠 | Generate a random integer within a range. |
 | 🟠 | Generate a random double within a range. |
 | 🟠 | Generate a random boolean value. |
@@ -41,7 +55,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 2. String Manipulation
+### 3. String Manipulation
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -54,11 +68,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Replace multiple spaces with a single space. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 3. Date and Time Utilities
+### 4. Date and Time Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -72,11 +86,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Convert UNIX timestamp to DateTime and vice versa. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 4. File and Directory Utilities
+### 5. File and Directory Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -89,11 +103,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Get the size of a file in bytes. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
     
 ---
 
-### 5. Collection Utilities
+### 6. Collection Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -108,11 +122,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Convert a list to a dictionary with a specified key selector. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 6. Math Utilities
+### 7. Math Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -125,11 +139,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Round a number to the nearest integer, or to a specific number of decimal places. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 7. Validation Utilities
+### 8. Validation Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -140,11 +154,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Validate if a file path is valid and accessible. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 8. Conversion Utilities
+### 9. Conversion Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -157,11 +171,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Convert a file to a base64 string and vice versa. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 9. Reflection and Type Utilities
+### 10. Reflection and Type Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -174,11 +188,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Create an instance of a class dynamically. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 10. Threading and Asynchronous Utilities
+### 11. Threading and Asynchronous Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -192,11 +206,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Run a background task and report progress. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
     
 ---
 
-### 11. Network Utilities
+### 12. Network Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -210,11 +224,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Fetch DNS records for a domain. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
     
 ---
 
-### 12. Data Structure Utilities
+### 13. Data Structure Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -228,11 +242,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Implement a trie (prefix tree) for efficient string searching. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 13. Serialization and Deserialization
+### 14. Serialization and Deserialization
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -243,11 +257,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Serialize an object to a file and deserialize it back. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 14. Encryption and Hashing
+### 15. Encryption and Hashing
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -265,11 +279,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Sign and verify data using a digital signature. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 15. Error Handling Utilities
+### 16. Error Handling Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -280,11 +294,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Capture and log unhandled exceptions globally. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 16. Configuration and Environment Utilities
+### 17. Configuration and Environment Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -296,11 +310,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Parse command-line arguments. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 17. Localization and Internationalization
+### 18. Localization and Internationalization
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -312,11 +326,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Implement a simple translation service. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 18. GUI and User Interaction Utilities
+### 19. GUI and User Interaction Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -328,11 +342,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Capture a screenshot of the current window or screen. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 19. Debugging and Diagnostics
+### 20. Debugging and Diagnostics
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -344,11 +358,11 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Track the time taken by individual methods. |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
 
-### 20. Miscellaneous Utilities
+### 21. Miscellaneous Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -362,6 +376,6 @@ Feel free the discuss about them, or make request for non listed ones.
 | ⚫ | Implement a rate limiter for controlling access to a resource.  |
 | ⚫ | ... |
 
-([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#index-))
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
 
 ---
