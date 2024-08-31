@@ -2,7 +2,7 @@
 
 namespace ClassicalCompendium
 {
-    public class NumeralSystemMethods
+    public class ConversionMethods
     {
         /// <summary>
         /// This method will convert a decimal number to a binary number.
