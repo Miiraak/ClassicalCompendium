@@ -7,7 +7,7 @@
     <Company></Company>
     <Description>A collection of widely-used C# utility methods </Description>
 	<EnablePackageValidation>true</EnablePackageValidation>
-	<PackageTags>Compendium; Random; Cryptography; Numeral;</PackageTags>
+	<PackageTags>Lists; Calculator; Package; Cryptography; CSharp; Random; Conversion; Hash; Compendium</PackageTags>
 	<RepositoryUrl>https://github.com/Miiraak/ClassicalCompendium</RepositoryUrl>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageLicenseFile>LICENSE</PackageLicenseFile>
