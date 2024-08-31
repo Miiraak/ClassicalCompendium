@@ -3,7 +3,7 @@
 ## Description
 ![example workflow](https://github.com/miiraak/classicalcompendium/actions/workflows/Publish.yml/badge.svg)
 
-ClassicalCompendium brings together a collection of classic C# utility methods, functions, and extensions. Instead of repeatedly writing or borrowing snippets of code, this package offers a comprehensive library of these classic methods, ensuring consistency, reducing redundancy, and speeding up development.
+ClassicalCompendium brings together a collection of classic C# utility methods, functions, lists, and extensions. Instead of repeatedly writing or borrowing snippets of code, this package offers a comprehensive library of these classic methods, ensuring consistency, reducing redundancy, and speeding up development.
 
 Whether you're dealing with string manipulations, collection handling, date-time operations, or other common tasks, CommonCodeCompendium has you covered with a reliable set of tools. Perfect for developers looking to streamline their workflow and maintain cleaner codebases, this package is your go-to resource for essential utilities.
 
