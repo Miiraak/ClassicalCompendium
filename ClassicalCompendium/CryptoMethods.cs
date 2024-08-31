@@ -1,21 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace ClassicalCompendium
 {
     public class CryptoMethods
     {
-        static readonly Dictionary<char, string> ReverseAlphabet = new Dictionary<char, string>{
-              { 'A', "Z" }, { 'B', "Y" }, { 'C', "X" },
-              { 'D', "W" }, { 'E', "V "}, { 'F', "U" },
-              { 'G', "T" }, { 'H', "S" }, { 'I', "R" },
-              { 'J', "Q" }, { 'K', "P" }, { 'L', "O" },
-              { 'M', "N" }, { 'N', "M" }, { 'O', "L" },
-              { 'P', "K" }, { 'Q', "J" }, { 'R', "I" },
-              { 'S', "H" }, { 'T', "G" }, { 'U', "F" },
-              { 'V', "E" }, { 'W', "D" }, { 'X', "C" },
-              { 'Y', "B" }, { 'Z', "A" } };
-
         /// <summary>
         /// This method will return the converted string with the Cesar code. 
         /// </summary>
@@ -49,9 +37,9 @@ namespace ClassicalCompendium
 
             foreach (char letter in Text.ToUpper())
             {
-                if (ReverseAlphabet.ContainsKey(letter))
+                if (PresetLists.Chars.ReverseAlphabet.ContainsKey(letter))
                 {
-                    output += ReverseAlphabet[letter];
+                    output += PresetLists.Chars.ReverseAlphabet[letter];
                 }
                 else
                 {
