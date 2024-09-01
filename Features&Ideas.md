@@ -1,6 +1,13 @@
 # List of Features / Ideas
 You can find here all ideas or planned functions that will be implemented in the package.
 Feel free the discuss about them, or make request for non listed ones.
+| Color : | Desc : |
+|:---|:---|
+| ⚫ | Is in backlog. |
+| 🟠 | Is in work. |
+| 🟣 | Is implemented but need validation. |
+| 🟢 | Is implemented and verified. |
+| 🔴 | Is broken.  |
 
 ## Table of content :
 - [Random Number Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#1-random-number-utilities)
@@ -31,12 +38,13 @@ Feel free the discuss about them, or make request for non listed ones.
 
 | Status :    | Purpose : |
 | :-------- | :------- |
-| ⚫ | A List<string> of Months. |
-| ⚫ | A List<string> of Days. |
-| ⚫ | A List<string> of Hours. |
-| ⚫ | A tuple <string, string, string, int> of ISO-3166 Country name. |
-| ⚫ | A List<string> of most used langages. |
-| ⚫ | A List<string> of Official langages. |
+| 🟣 | Generate a random integer within a range. |
+| 🟣 | Generate a random double within a range. |
+| 🟣 | Generate a random boolean value. |
+| 🟣 | Generate a random string value based on lenght. |
+| 🟣 | Generate a random long value. |
+| ⚫ | Select a random element from a list. |
+| ⚫ | Generate a random alphanumeric string. |
 | ⚫ | ... |
 
 ---
@@ -44,13 +52,22 @@ Feel free the discuss about them, or make request for non listed ones.
 ### 2. Preset Lists
 | Status :    | Purpose : |
 | :-------- | :------- |
-| 🟠 | Generate a random integer within a range. |
-| 🟠 | Generate a random double within a range. |
-| 🟠 | Generate a random boolean value. |
-| 🟠 | Generate a random string value based on lenght. |
-| 🟠 | Generate a random long value. |
-| ⚫ | Select a random element from a list. |
-| ⚫ | Generate a random alphanumeric string. |
+| 🟣 | A List<string> of Months. |
+| 🟣 | A List<string> of Days. |
+| 🟣 | A List<string> of Hours. |
+| 🟣 | A tuple <string, string, string, int> of ISO-3166 Country name. |
+| 🟣 | A List<string> of most used langages. |
+| 🟣 | A List<string> of Official langages. |
+| 🟣 | A List<char, string> of a reversed alphabet. |
+| 🟣 | A List<(string, int)> of order of magnitude from -30 to 30. |
+| 🟣 | A List<string> of the first 255 hexadeciaml chars. |
+| 🟣 | A List<int> of primal nubers of `n` length. |
+| 🟣 | A List<int> of fibonacci numbers of `n` length. |
+| 🟣 | A List<long> of Mersenne numbers of `n` length. |
+| 🟣 | A List<int> of triangular numbers of `n` length. |
+| 🟣 | A List<int> of Hexagonal numbers of `n` length. |
+| 🟣 | A List<(string, string)> of common HTMl colors. |
+| 🟣 | A List<string> of common used password. |
 | ⚫ | ... |
 
 ---
@@ -130,6 +147,12 @@ Feel free the discuss about them, or make request for non listed ones.
 
 | Status :    | Purpose : |
 | :-------- | :------- |
+| 🟣 | Number is odd method. |
+| 🟣 | Number is even method. |
+| 🟣 | Sum to N numbers. |
+| 🟣 | Substract to N numbers. |
+| 🟣 | Factorial of N. |
+| 🟣 | Negative factorial of N. |
 | ⚫ | Calculate the square root, power, or logarithm of a number. |
 | ⚫ | Generate a Fibonacci sequence. |
 | ⚫ | Determine if a number is prime. |
@@ -162,8 +185,18 @@ Feel free the discuss about them, or make request for non listed ones.
 
 | Status :    | Purpose : |
 | :-------- | :------- |
-| 🟠 | Convert an integer to a binary, hexadecimal, or octal string. |
-| ⚫ | Convert a binary, hexadecimal, or octal string to an integer. |
+| 🟣 | Convert an integer to a binary. |
+| 🟣 | Convert an integer to a hexadecimal. | 
+| 🟣 | Convert an integer to an octal. |
+| 🟣 | Convert a binary to an integer |
+| 🟣 | Convert a binary to a hexadecimal. |
+| 🟣 | Convert a binary to a octal. |
+| 🟣 | Convert a hexadecimal to an integer. |
+| 🟣 | Convert a hexadecimal to a binary. |
+| 🟣 | Convert a hexadecimal to an octal. |
+| 🟣 | Convert an octal to an integer. |
+| 🟣 | Convert an octal to a binary. |
+| 🟣 | Convert an octal to a hexadecimal. |
 | ⚫ | Convert a DateTime to a UNIX timestamp and vice versa. |
 | ⚫ | Convert a collection to a comma-separated string. |
 | ⚫ | Convert a string to a byte array and vice versa. |
@@ -265,18 +298,40 @@ Feel free the discuss about them, or make request for non listed ones.
 
 | Status :    | Purpose : |
 | :-------- | :------- |
-| 🟠 | Encode a string with code Casear. |
-| 🟠 | Encode a string with AtBash. |
-| ⚫ | Encode a string with Base64. |
-| ⚫ | Encode a string with Scytale. |
-| ⚫ | Encode a string with RailFencer. |
-| ⚫ | Encode a string with Playfair. |
-| ⚫ | Encrypt and decrypt a string using symmetric encryption (e.g., AES). |
-| 🟠 | Generate a hash (e.g., SHA256) of a string. |
-| ⚫ | Verify a hash (e.g., SHA256) of a string. |
+| 🟣 | Hash CRC8 method. |
+| ⚫ | Hash CRC16 method. |
+| ⚫ | Hash CRC32 method. |
+| ⚫ | Hash CRC64 method. |
+| ⚫ | Hash InternetCheckSum method. |
+| ⚫ | Hash Fletcher8 method. |
+| ⚫ | Hash Fletcher32 method. |
+| ⚫ | Hash Adler32 method. |
+| ⚫ | Hash Xor8 method. |
+| ⚫ | Hash LunAlgorithm method. |
+| ⚫ | Hash DamnAlgorithm method. |
+| ⚫ | Hash RabinFingerprint method. |
+| ⚫ | Hash TabulationHashing method. |
+| ⚫ | Hash ZobristHashing method. |
+| ⚫ | Implementation of PersonHash method. |
+| ⚫ | Implementation of PJHash method. |
+| ⚫ | Implementation of MurmurHash method. |
+| ⚫ | Implementation of FarmHash method. |
+| ⚫ | Implementation of XXHash3 method. |
+| ⚫ | Implementation of DHash method. |
+| ⚫ | Implementation of Blake3 method. |
+| ⚫ | Implementation of HMAC method. |
+| ⚫ | Implementation of SipHash method. |
+| ⚫ | Implementation of HighwayHash method. |
+| ⚫ | Implementation of Blake2s method. |
+| ⚫ | Implementation of Blake2b method. |
+| ⚫ | Implementation of Blake2x method. |
+| 🟣 | Implementation of SHA256 method. |
+| 🟣 | Implementation of SHA512 method. |
+| ⚫ | Implementation of SHA3 method. |
+| ⚫ | Implementation of SpectralHash method. |
+| ⚫ | Implementation of SWIFFT method. |
+| ⚫ | Implementation of Whirlpool     method. |
 | ⚫ | Generate a salt and hash a password. |
-| ⚫ | Encrypt and decrypt a file. |
-| ⚫ | Sign and verify data using a digital signature. |
 | ⚫ | ... |
 
 ([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
