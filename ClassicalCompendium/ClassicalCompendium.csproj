@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <SignAssembly>False</SignAssembly>
-    <Version>1.0.4</Version>
+    <Version>1.0.4.5</Version>
     <Company></Company>
     <Description>A collection of widely-used C# utility methods </Description>
 	<EnablePackageValidation>true</EnablePackageValidation>
@@ -16,8 +16,8 @@
 	<Authors>Miiraak</Authors>
 	<PackageId>ClassicalCompendium</PackageId>
 	<PackageProjectUrl>https://www.nuget.org/packages/ClassicalCompendium</PackageProjectUrl>
-	<AssemblyVersion>1.0.4</AssemblyVersion>
-	<FileVersion>1.0.4</FileVersion>
+	<AssemblyVersion>1.0.4.5</AssemblyVersion>
+	<FileVersion>1.0.4.5</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
