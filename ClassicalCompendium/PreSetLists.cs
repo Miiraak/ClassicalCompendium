@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 
 namespace ClassicalCompendium
 {
@@ -758,7 +757,7 @@ namespace ClassicalCompendium
                 ("Olive", "#808000"),
                 ("Aquamarine", "#7FFFD4")
             };
-        }   
+        }
 
         public class Security
         {
