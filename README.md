@@ -23,7 +23,7 @@ Before running the project, make sure you have the following installed:
 
 ## Usage
 ```
-dotnet add package ClassicalCompendium --version 1.0.4
+dotnet add package ClassicalCompendium --version 1.0.4.5
 ```
 
 ## Contributing
@@ -48,6 +48,7 @@ This project is licensed under the [MIT]. See the [LICENSE](./LICENSE) file for 
 -  [---]()
 
 ## Thanks to 🫀
-- [Orwell](https://openclassrooms.com/fr/members/4962pd63nmm2) found on [OC Forum](https://openclassrooms.com/forum/sujet/c-probleme-de-chiffrement-de-cesare-94282)
+- [Orwell](https://openclassrooms.com/fr/members/4962pd63nmm2) found on [OC Forum](https://openclassrooms.com/forum/sujet/c-probleme-de-chiffrement-de-cesare-94282) for the Caesar Cipher method.
+- [Charliecampbell-zz](https://github.com/charliecampbell-zz) found on [SecList](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/best110.txt) for the password list.
 
 ---

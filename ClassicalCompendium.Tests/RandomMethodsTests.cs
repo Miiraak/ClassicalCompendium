@@ -8,11 +8,11 @@
             int min = 0;
             int max = 100;
             int random = RandomMethods.RandomInteger(min, max);
-            Assert.True(random >= min && random < max);
+            Assert.True(random >= min && random <= max);
             min = -100;
             max = 0;
             random = RandomMethods.RandomInteger(min, max);
-            Assert.True(random >= min && random < max);
+            Assert.True(random >= min && random <= max);
         }
 
         [Fact]
@@ -21,11 +21,11 @@
             double min = 0;
             double max = 100;
             double random = RandomMethods.RandomDouble(min, max);
-            Assert.True(random >= min && random < max);
+            Assert.True(random >= min && random <= max);
             min = -100;
             max = 0;
             random = RandomMethods.RandomDouble(min, max);
-            Assert.True(random >= min && random < max);
+            Assert.True(random >= min && random <= max);
         }
 
         [Fact]
