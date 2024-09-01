@@ -11,7 +11,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ## Table of content :
 - [Random Number Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#1-random-number-utilities)
-- [Preset lists]()
+- [Preset lists](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features%26Ideas.md#2-preset-lists)
 - [String Manipulation](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#2-string-manipulation)
 - [Date and Time Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#3-date-and-time-utilities)
 - [File and Directory Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#4-file-and-directory-utilities)
@@ -24,7 +24,8 @@ Feel free the discuss about them, or make request for non listed ones.
 - [Network Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#11-network-utilities)
 - [Data Structure Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#12-data-structure-utilities)
 - [Serialization and Deserialization](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#13-serialization-and-deserialization)
-- [Encryption and Hashing](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#14-encryption-and-hashing)
+- [Encryption](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#14-encryption-and-hashing)
+- [Hashing](...)
 - [Error Handling Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#15-error-handling-utilities)
 - [Configuration and Environment Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#16-configuration-and-environment-utilities)
 - [Localization and Internationalization](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#17-localization-and-internationalization)
@@ -50,6 +51,7 @@ Feel free the discuss about them, or make request for non listed ones.
 ---
 
 ### 2. Preset Lists
+
 | Status :    | Purpose : |
 | :-------- | :------- |
 | 🟣 | A List<string> of Months. |
@@ -294,7 +296,26 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 15. Encryption and Hashing
+### 15. Encryption
+
+| Status :    | Purpose : |
+| :-------- | :------- |
+| 🟣 | Encode a string with code Casear. |
+| 🟣 | Encode a string with AtBash. |
+| ⚫ | Encode a string with Base64. |
+| ⚫ | Encode a string with Scytale. |
+| ⚫ | Encode a string with RailFencer. |
+| ⚫ | Encode a string with Playfair. |
+| ⚫ | Encrypt and decrypt a string using symmetric encryption (e.g., AES). |
+| ⚫ | Encrypt and decrypt a file. |
+| ⚫ | Sign and verify data using a digital signature. |
+| ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
+
+---
+
+### 16. Hashing
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -338,7 +359,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 16. Error Handling Utilities
+### 17. Error Handling Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -353,7 +374,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 17. Configuration and Environment Utilities
+### 18. Configuration and Environment Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -369,7 +390,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 18. Localization and Internationalization
+### 19. Localization and Internationalization
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -385,7 +406,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 19. GUI and User Interaction Utilities
+### 20. GUI and User Interaction Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -401,7 +422,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 20. Debugging and Diagnostics
+### 21. Debugging and Diagnostics
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -417,7 +438,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 21. Miscellaneous Utilities
+### 22. Miscellaneous Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
