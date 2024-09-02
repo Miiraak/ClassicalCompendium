@@ -1,6 +1,6 @@
 ﻿namespace ClassicalCompendium.Tests
 {
-    public class PreSetListsTests
+    public class PresetListsTests
     {
         public class Time
         {

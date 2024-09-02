@@ -732,6 +732,46 @@ namespace ClassicalCompendium
             }
         }
 
+        public class InternationalSystemOfUnits
+        {
+            public static List<(string, string)> BaseUnits = new List<(string, string)>
+            {
+                ("meter", "m"),
+                ("kilogram", "kg"),
+                ("second", "s"),
+                ("ampere", "A"),
+                ("kelvin", "K"),
+                ("mole", "mol"),
+                ("candela", "cd")
+            };
+
+            public static List<(string, string)> DerivedUnits = new List<(string, string)>
+            {
+                ("hertz", "Hz"),
+                ("radian", "rad"),
+                ("steradian", "sr"),
+                ("newton", "N"),
+                ("pascal", "Pa"),
+                ("joule", "J"),
+                ("watt", "W"),
+                ("coulomb", "C"),
+                ("volt", "V"),
+                ("farad", "F"),
+                ("ohm", "Ω"),
+                ("siemens", "S"),
+                ("weber", "Wb"),
+                ("tesla", "T"),
+                ("henry", "H"),
+                ("degree Celsius", "°C"),
+                ("lumen", "lm"),
+                ("lux", "lx"),
+                ("becquerel", "Bq"),
+                ("gray", "Gy"),
+                ("sievert", "Sv"),
+                ("katal", "kat")
+            };
+        }
+
         public class HTML
         {
             public static List<(string, string)> Colors = new List<(string, string)>
