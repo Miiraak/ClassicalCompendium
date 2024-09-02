@@ -49,7 +49,8 @@ This project is licensed under the [MIT]. See the [LICENSE](./LICENSE) file for 
 -  [---]()
 
 ## Thanks to 🫀
-- [Orwell](https://openclassrooms.com/fr/members/4962pd63nmm2) found on [OC Forum](https://openclassrooms.com/forum/sujet/c-probleme-de-chiffrement-de-cesare-94282) for the Caesar Cipher method.
-- [Charliecampbell-zz](https://github.com/charliecampbell-zz) found on [SecList](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/best110.txt) for the password list.
+- [Orwell](https://openclassrooms.com/fr/members/4962pd63nmm2) for the Caesar Cipher method, found on [OC Forum](https://openclassrooms.com/forum/sujet/c-probleme-de-chiffrement-de-cesare-94282)  .
+- [Charliecampbell-zz](https://github.com/charliecampbell-zz) for the password list, found on [SecList](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/best110.txt) .
+- [Jack Herer](https://learn.microsoft.com/en-us/users/jackherer-1348/) for some sorting algorithms, found on [learn.microsoft](https://learn.microsoft.com/en-us/answers/questions/1259438/c-sorting-algorithms-implementation).
 
 ---
