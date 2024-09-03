@@ -5,7 +5,11 @@ namespace ClassicalCompendium
 {
     public class HashMethods
     {
-        // Cyclic redundancy checks;
+        /// <summary>
+        /// This method will return the CRC8 hash of the text.
+        /// </summary>
+        /// <param name="input">The string to hash.</param>
+        /// <returns>A CRC8 hashed string</returns>
         public static string CRC8(string input)
         {
             byte[] Table = new byte[256];

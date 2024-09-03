@@ -6,6 +6,12 @@ namespace ClassicalCompendium
 {
     public class SortingAlgorithm
     {
+        /// <summary>
+        /// This method sorts a list of elements using the Bubble Sort algorithm.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list to sort.</param>
+        /// <returns>A sorted list.</returns>
         public static List<T> BubbleSort<T>(List<T> list) where T : IComparable<T>
         {
             int n = list.Count;
@@ -23,6 +29,12 @@ namespace ClassicalCompendium
             return list;
         }
 
+        /// <summary>
+        /// This method sorts a list of elements using the Selection Sort algorithm.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list to sort.</param>
+        /// <returns>A sorted list.</returns>
         public static List<T> SelectionSort<T>(List<T> list) where T : IComparable<T>
         {
             int min;
@@ -42,6 +54,12 @@ namespace ClassicalCompendium
             return list;
         }
 
+        /// <summary>
+        /// This method sorts a list of elements using the Insertion Sort algorithm.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list to sort.</param>
+        /// <returns>A sorted list.</returns>
         public static List<T> InsertionSort<T>(List<T> list) where T : IComparable<T>
         {
             T value;
@@ -61,6 +79,14 @@ namespace ClassicalCompendium
             return list;
         }
 
+        /// <summary>
+        /// This method sorts a list of elements using the Quick Sort algorithm.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list to sort</param>
+        /// <param name="left">The first index.</param>
+        /// <param name="right">The last index.</param>
+        /// <returns>A sorted list.</returns>
         public static List<T> QuickSort<T>(List<T> list, int left, int right) where T : IComparable<T>
         {
             if (left < right)
@@ -93,23 +119,29 @@ namespace ClassicalCompendium
             return i + 1;
         }
 
-        public static List<T> MergeSort<T>(List<T> unsorted) where T : IComparable<T>
+        /// <summary>
+        /// This method sorts a list of elements using the Merge Sort algorithm.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list to sort.</param>
+        /// <returns>A sorted list.</returns>
+        public static List<T> MergeSort<T>(List<T> list) where T : IComparable<T>
         {
-            if (unsorted.Count <= 1)
-                return unsorted;
+            if (list.Count <= 1)
+                return list;
 
             List<T> left = new List<T>();
             List<T> right = new List<T>();
 
-            int middle = unsorted.Count / 2;
+            int middle = list.Count / 2;
             for (int i = 0; i < middle; i++)
             {
-                left.Add(unsorted[i]);
+                left.Add(list[i]);
             }
 
-            for (int i = middle; i < unsorted.Count; i++)
+            for (int i = middle; i < list.Count; i++)
             {
-                right.Add(unsorted[i]);
+                right.Add(list[i]);
             }
 
             left = MergeSort(left);
@@ -151,6 +183,12 @@ namespace ClassicalCompendium
             return result;
         }
 
+        /// <summary>
+        /// This method sorts a list of elements using the Heap Sort algorithm.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list to sort.</param>
+        /// <returns>A sorted list.</returns>
         public static List<T> HeapSort<T>(List<T> list) where T : IComparable<T>
         {
             int n = list.Count;

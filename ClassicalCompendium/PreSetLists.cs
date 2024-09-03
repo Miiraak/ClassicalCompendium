@@ -7,6 +7,9 @@ namespace ClassicalCompendium
     {
         public class Time
         {
+            /// <summary>
+            /// A list of the months of the year.
+            /// </summary>
             public static List<string> Months = new List<string>
             {
                 "January",
@@ -23,6 +26,9 @@ namespace ClassicalCompendium
                 "December"
             };
 
+            /// <summary>
+            /// A list of the days of the week.
+            /// </summary>
             public static List<string> WeekDays = new List<string>
             {
                 "Monday",
@@ -34,6 +40,9 @@ namespace ClassicalCompendium
                 "Sunday"
             };
 
+            /// <summary>
+            /// A list of the hours of the day.
+            /// </summary>
             public static List<string> Hours = new List<string>
             {
                 "12 PM",
@@ -63,6 +72,9 @@ namespace ClassicalCompendium
             };
         }
 
+        /// <summary>
+        /// A tuple of the name of the country, the ISO 3166-1 alpha-2 code, the ISO 3166-1 alpha-3 code, and the ISO 3166-1 numeric code. Sorted alphabetically.
+        /// </summary>
         public class Countries
         {
             public static List<(string, string, string, int)> CountryISO = new List<(string, string, string, int)>
@@ -317,6 +329,9 @@ namespace ClassicalCompendium
                 ("Zimbabwe", "ZW", "ZWE", 716)
             };
 
+            /// <summary>
+            /// A list of the most spoken languages in the world.
+            /// </summary>
             public static List<string> MostUsedLangages = new List<string>
             {
                 "English",
@@ -331,6 +346,9 @@ namespace ClassicalCompendium
                 "Portuguese"
             };
 
+            /// <summary>
+            /// A list of the official languages of the world sorted alphabetically.
+            /// </summary>
             public static List<string> OfficialLanguages = new List<string>
             {
                 "Abkhaz",
@@ -552,6 +570,9 @@ namespace ClassicalCompendium
 
         public class Chars
         {
+            /// <summary>
+            /// A dictionary of the reverse alphabet. AZ -> ZA
+            /// </summary>
             public static Dictionary<char, string> ReverseAlphabet = new Dictionary<char, string>{
               { 'A', "Z" }, { 'B', "Y" }, { 'C', "X" },
               { 'D', "W" }, { 'E', "V "}, { 'F', "U" },
@@ -564,6 +585,9 @@ namespace ClassicalCompendium
               { 'Y', "B" }, { 'Z', "A" }
             };
 
+            /// <summary>
+            /// A tuple of the magnitude prefix and their order of magnitude. From -30 to 30.
+            /// </summary>
             public static List<(string, int)> OrderOfMagnitude = new List<(string, int)>
             {
                 ("quecto", -30),
@@ -595,6 +619,9 @@ namespace ClassicalCompendium
 
         public class Numbers
         {
+            /// <summary>
+            /// A list of the first 255 hexadecimal numbers.
+            /// </summary>
             public static List<string> HexadecimalNumbers = new List<string>
             {
                 ("0"), ("1"), ("2"), ("3"), ("4"), ("5"),
@@ -650,6 +677,12 @@ namespace ClassicalCompendium
                 ("FB"), ("FC"), ("FD"), ("FE"), ("FF"),
             };
 
+
+            /// <summary>
+            /// This method will create a list with the N first numbers.
+            /// </summary>
+            /// <param name="N">The number of prime number to gather.</param>
+            /// <returns>A list of integers..</returns>
             public static List<int> PrimesN(int N)
             {
                 List<int> primes = new List<int> { };
@@ -672,6 +705,11 @@ namespace ClassicalCompendium
                 }
             }
 
+            /// <summary>
+            /// This method will create a list with the N first Fibonacci numbers.
+            /// </summary>
+            /// <param name="N">The number of fibonacci number to gather.</param>
+            /// <returns>A list of integers.</returns>
             public static List<int> FibonacciN(int N)
             {
                 List<int> fibonacci = new List<int> { 0, 1 };
@@ -692,6 +730,11 @@ namespace ClassicalCompendium
                 }
             }
 
+            /// <summary>
+            /// This method will create a list with the N first Mersenne numbers.
+            /// </summary>
+            /// <param name="N">The number of mersenne integer to gather.</param>
+            /// <returns>A list of integers.</returns>
             public static List<int> MersenneN(int N)
             {
                 List<int> mersenne = new List<int> { };
@@ -703,12 +746,28 @@ namespace ClassicalCompendium
                 return mersenne;
             }
 
-            public static List<long> MersennePrimalN(int N)
-            {
-                List<long> mersennePrimal = new List<long> { 3, 7, 31, 127, 8191, 131071, 524287, 2147483647, 2305843009213693951 };
-                return mersennePrimal;
-            }
+            /// <summary>
+            /// A list of the first 9 Mersenne Primal numbers.
+            /// </summary>
+            public static List<long> MersennePrimal = new List<long>
+            { 
+                3, 
+                7, 
+                31, 
+                127, 
+                8191, 
+                131071, 
+                524287, 
+                2147483647, 
+                2305843009213693951 
+            };
+            
 
+            /// <summary>
+            /// This method will create a list with the N first Triangular numbers.
+            /// </summary>
+            /// <param name="N">The number of triangular numbers to gathers.</param>
+            /// <returns>A list of integers.</returns>
             public static List<int> TriangularNumberN(int N)
             {
                 List<int> triangular = new List<int> { };
@@ -719,6 +778,11 @@ namespace ClassicalCompendium
                 return triangular;
             }
 
+            /// <summary>
+            /// This method will create a list with the N first hexagonal numbers.
+            /// </summary>
+            /// <param name="N">The number of hexagonal numbers to gathers.</param>
+            /// <returns>A list of integers.</returns>
             public static List<int> HexagonalNumberN(int N)
             {
                 List<int> hexagonal = new List<int> { };
@@ -734,6 +798,9 @@ namespace ClassicalCompendium
 
         public class InternationalSystemOfUnits
         {
+            /// <summary>
+            /// A tuple of the base units of the International System of Units and their symbol.
+            /// </summary>
             public static List<(string, string)> BaseUnits = new List<(string, string)>
             {
                 ("meter", "m"),
@@ -745,6 +812,9 @@ namespace ClassicalCompendium
                 ("candela", "cd")
             };
 
+            /// <summary>
+            /// A tuple of the derived units of the International System of Units and their symbol.
+            /// </summary>
             public static List<(string, string)> DerivedUnits = new List<(string, string)>
             {
                 ("hertz", "Hz"),
@@ -774,6 +844,9 @@ namespace ClassicalCompendium
 
         public class HTML
         {
+            /// <summary>
+            /// A list of the most used HTML codes colors.
+            /// </summary>
             public static List<(string, string)> Colors = new List<(string, string)>
             {
                 ("Red", "#FF0000"),
@@ -801,6 +874,9 @@ namespace ClassicalCompendium
 
         public class Security
         {
+            /// <summary>
+            /// A list of 100 common passwords.
+            /// </summary>
             public static List<string> CommonPasswords = new List<string>
             {
                 "000000",
