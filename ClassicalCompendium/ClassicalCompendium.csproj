@@ -5,7 +5,7 @@
     <SignAssembly>False</SignAssembly>
     <Version>1.0.4.5</Version>
     <Company></Company>
-    <Description>A collection of widely-used C# utility methods </Description>
+    <Description>A collection of common C# utility methods </Description>
 	<EnablePackageValidation>true</EnablePackageValidation>
 	<PackageTags>Lists; Calculator; Package; Cryptography; CSharp; Random; Conversion; Sorting, Hash; Compendium</PackageTags>
 	<RepositoryUrl>https://github.com/Miiraak/ClassicalCompendium</RepositoryUrl>

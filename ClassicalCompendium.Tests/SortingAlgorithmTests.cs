@@ -2,142 +2,172 @@
 {
     public class SortingAlgorithmTests
     {
-        public class Numbers
+        [Fact]
+        public void BubbleSortTests()
         {
-            [Fact]
-            public void BubbleSortTest()
-            {
-                List<int> list = [5, 3, 8, 4, 2];
-                List<int> expected = [2, 3, 4, 5, 8];
-                List<int> actual = SortingAlgorithm.NumbersList.BubbleSort(list);
-                Assert.Equal(expected, actual);
-            }
+            List<int> listInt = [2, 4, 3, 5, 1];
+            List<string> listString = ["d", "a", "e", "b", "c"];
+            List<double> listDouble = [2.2, 4.4, 3.3, 1.1, 5.5];
+            List<bool> listBool = [true, false, true, false, true];
+            List<char> listChar = ['c', 'b', 'a', 'e', 'd'];
 
-            [Fact]
-            public void SelectionSortTest()
-            {
-                List<int> list = [5, 3, 8, 4, 2];
-                List<int> expected = [2, 3, 4, 5, 8 ];
-                List<int> actual = SortingAlgorithm.NumbersList.SelectionSort(list);
-                Assert.Equal(expected, actual);
-            }
+            List<int> expectedInt = [1, 2, 3, 4, 5];
+            List<string> expectedString = ["a", "b", "c", "d", "e"];
+            List<double> expectedDouble = [1.1, 2.2, 3.3, 4.4, 5.5];
+            List<bool> expectedBool = [false, false, true, true, true];
+            List<char> expectedChar = ['a', 'b', 'c', 'd', 'e'];
 
-            [Fact]
-            public void InsertionSortTest()
-            {
-                List<int> list = [5, 3, 8, 4, 2];
-                List<int> expected = [2, 3, 4, 5, 8];
-                List<int> actual = SortingAlgorithm.NumbersList.InsertionSort(list);
-                Assert.Equal(expected, actual);
-            }
+            List<int> actualInt = SortingAlgorithm.BubbleSort(listInt);
+            List<string> actualString = SortingAlgorithm.BubbleSort(listString);
+            List<double> actualDouble = SortingAlgorithm.BubbleSort(listDouble);
+            List<bool> actualBool = SortingAlgorithm.BubbleSort(listBool);
+            List<char> actualChar = SortingAlgorithm.BubbleSort(listChar);
 
-            [Fact]
-            public void MergeSortTest()
-            {
-                List<int> list = [5, 3, 8, 4, 2 ];
-                List<int> expected = [2, 3, 4, 5, 8];
-                List<int> actual = SortingAlgorithm.NumbersList.MergeSort(list);
-                Assert.Equal(expected, actual);
-            }
-
-            [Fact]
-            public void QuickSortTest()
-            {
-                List<int> list = [5, 3, 8, 4, 2];
-                List<int> expected = [2, 3, 4, 5, 8];
-                List<int> actual = SortingAlgorithm.NumbersList.QuickSort(list, 0, list.Count - 1);
-                Assert.Equal(expected, actual);
-            }
-
-            [Fact]
-            public void HeapSortTest()
-            {
-                List<int> list = [5, 3, 8, 4, 2];
-                List<int> expected = [2, 3, 4, 5, 8];
-                List<int> actual = SortingAlgorithm.NumbersList.HeapSort(list);
-                Assert.Equal(expected, actual);
-            }
+            Assert.Equal(expectedInt, actualInt);
+            Assert.Equal(expectedString, actualString);
+            Assert.Equal(expectedDouble, actualDouble);
+            Assert.Equal(expectedBool, actualBool);
+            Assert.Equal(expectedChar, actualChar);
         }
 
-        public class Strings
+        [Fact]
+        public void SelectionSortTests()
         {
-            [Fact]
-            public void BubbleSortTest()
-            {
-                List<string> list = ["banana", "apple", "orange", "grape", "kiwi"];
-                List<string> expected = ["apple", "banana", "grape", "kiwi", "orange"];
-                List<string> actual = SortingAlgorithm.StringsList.BubbleSort(list);
-                Assert.Equal(expected, actual);
-                List<string> list2 = ["Cow", "Monkey", "Dog", "Elephant", "Cat"];
-                List<string> expected2 = ["Cat", "Cow", "Dog", "Elephant", "Monkey"];
-                List<string> actual2 = SortingAlgorithm.StringsList.BubbleSort(list2);
-                Assert.Equal(expected2, actual2);
-            }
+            List<int> listInt = [2, 4, 3, 5, 1];
+            List<string> listString = ["d", "a", "e", "b", "c"];
+            List<double> listDouble = [2.2, 4.4, 3.3, 1.1, 5.5];
+            List<bool> listBool = [true, false, true, false, true];
+            List<char> listChar = ['c', 'b', 'a', 'e', 'd'];
 
-            [Fact]
-            public void SelectionSortTest()
-            {
-                List<string> list = ["banana", "apple", "orange", "grape", "kiwi"];
-                List<string> expected = ["apple", "banana", "grape", "kiwi", "orange"];
-                List<string> actual = SortingAlgorithm.StringsList.SelectionSort(list);
-                Assert.Equal(expected, actual);
-                List<string> list2 = ["Cow", "Monkey", "Dog", "Elephant", "Cat"];
-                List<string> expected2 = ["Cat", "Cow", "Dog", "Elephant", "Monkey"];
-                List<string> actual2 = SortingAlgorithm.StringsList.SelectionSort(list2);
-                Assert.Equal(expected2, actual2);
-            }
+            List<int> expectedInt = [1, 2, 3, 4, 5];
+            List<string> expectedString = ["a", "b", "c", "d", "e"];
+            List<double> expectedDouble = [1.1, 2.2, 3.3, 4.4, 5.5];
+            List<bool> expectedBool = [false, false, true, true, true];
+            List<char> expectedChar = ['a', 'b', 'c', 'd', 'e'];
 
-            [Fact]
-            public void InsertionSortTest()
-            {
-                List<string> list = ["banana", "apple", "orange", "grape", "kiwi"];
-                List<string> expected = ["apple", "banana", "grape", "kiwi", "orange"];
-                List<string> actual = SortingAlgorithm.StringsList.InsertionSort(list);
-                Assert.Equal(expected, actual);
-                List<string> list2 = ["Cow", "Monkey", "Dog", "Elephant", "Cat"];
-                List<string> expected2 = ["Cat", "Cow", "Dog", "Elephant", "Monkey"];
-                List<string> actual2 = SortingAlgorithm.StringsList.InsertionSort(list2);
-                Assert.Equal(expected2, actual2);
-            }
+            List<int> actualInt = SortingAlgorithm.SelectionSort(listInt);
+            List<string> actualString = SortingAlgorithm.SelectionSort(listString);
+            List<double> actualDouble = SortingAlgorithm.SelectionSort(listDouble);
+            List<bool> actualBool = SortingAlgorithm.SelectionSort(listBool);
+            List<char> actualChar = SortingAlgorithm.SelectionSort(listChar);
 
-            [Fact]
-            public void MergeSortTest()
-            {
-                List<string> list = ["banana", "apple", "orange", "grape", "kiwi"];
-                List<string> expected = ["apple", "banana", "grape", "kiwi", "orange"];
-                List<string> actual = SortingAlgorithm.StringsList.MergeSort(list);
-                Assert.Equal(expected, actual);
-                List<string> list2 = ["Cow", "Monkey", "Dog", "Elephant", "Cat"];
-                List<string> expected2 = ["Cat", "Cow", "Dog", "Elephant", "Monkey"];
-                List<string> actual2 = SortingAlgorithm.StringsList.MergeSort(list2);
-                Assert.Equal(expected2, actual2);
-            }
+            Assert.Equal(expectedInt, actualInt);
+            Assert.Equal(expectedString, actualString);
+            Assert.Equal(expectedDouble, actualDouble);
+            Assert.Equal(expectedBool, actualBool);
+            Assert.Equal(expectedChar, actualChar);
+        }
 
-            [Fact]
-            public void QuickSortTest()
-            {
-                List<string> list = ["banana", "apple", "orange", "grape", "kiwi"];
-                List<string> expected = ["apple", "banana", "grape", "kiwi", "orange"];
-                List<string> actual = SortingAlgorithm.StringsList.QuickSort(list, 0, list.Count - 1);
-                Assert.Equal(expected, actual);
-                List<string> list2 = ["Cow", "Monkey", "Dog", "Elephant", "Cat"];
-                List<string> expected2 = ["Cat", "Cow", "Dog", "Elephant", "Monkey"];
-                List<string> actual2 = SortingAlgorithm.StringsList.QuickSort(list2, 0, list2.Count - 1);
-                Assert.Equal(expected2, actual2);
-            }
+        [Fact]
+        public void InsertionSortTests()
+        {
+            List<int> listInt = [2, 4, 3, 5, 1];
+            List<string> listString = ["d", "a", "e", "b", "c"];
+            List<double> listDouble = [2.2, 4.4, 3.3, 1.1, 5.5];
+            List<bool> listBool = [true, false, true, false, true];
+            List<char> listChar = ['c', 'b', 'a', 'e', 'd'];
 
-            [Fact]
-            public void HeapSortTest()
-            {
-                List<string> list = ["banana", "apple", "orange", "grape", "kiwi"];
-                List<string> expected = ["apple", "banana", "grape", "kiwi", "orange"];
-                List<string> actual = SortingAlgorithm.StringsList.HeapSort(list);
-                Assert.Equal(expected, actual);
-                List<string> list2 = ["Cow", "Monkey", "Dog", "Elephant", "Cat"];
-                List<string> expected2 = ["Cat", "Cow", "Dog", "Elephant", "Monkey"];
-                List<string> actual2 = SortingAlgorithm.StringsList.HeapSort(list2);
-                Assert.Equal(expected2, actual2);
-            }
+            List<int> expectedInt = [1, 2, 3, 4, 5];
+            List<string> expectedString = ["a", "b", "c", "d", "e"];
+            List<double> expectedDouble = [1.1, 2.2, 3.3, 4.4, 5.5];
+            List<bool> expectedBool = [false, false, true, true, true];
+            List<char> expectedChar = ['a', 'b', 'c', 'd', 'e'];
+
+            List<int> actualInt = SortingAlgorithm.InsertionSort(listInt);
+            List<string> actualString = SortingAlgorithm.InsertionSort(listString);
+            List<double> actualDouble = SortingAlgorithm.InsertionSort(listDouble);
+            List<bool> actualBool = SortingAlgorithm.InsertionSort(listBool);
+            List<char> actualChar = SortingAlgorithm.InsertionSort(listChar);
+
+            Assert.Equal(expectedInt, actualInt);
+            Assert.Equal(expectedString, actualString);
+            Assert.Equal(expectedDouble, actualDouble);
+            Assert.Equal(expectedBool, actualBool);
+            Assert.Equal(expectedChar, actualChar);
+        }
+
+        [Fact]
+        public void MergeSortTests()
+        {
+            List<int> listInt = [2, 4, 3, 5, 1];
+            List<string> listString = ["d", "a", "e", "b", "c"];
+            List<double> listDouble = [2.2, 4.4, 3.3, 1.1, 5.5];
+            List<bool> listBool = [true, false, true, false, true];
+            List<char> listChar = ['c', 'b', 'a', 'e', 'd'];
+
+            List<int> expectedInt = [1, 2, 3, 4, 5];
+            List<string> expectedString = ["a", "b", "c", "d", "e"];
+            List<double> expectedDouble = [1.1, 2.2, 3.3, 4.4, 5.5];
+            List<bool> expectedBool = [false, false, true, true, true];
+            List<char> expectedChar = ['a', 'b', 'c', 'd', 'e'];
+
+            List<int> actualInt = SortingAlgorithm.MergeSort(listInt);
+            List<string> actualString = SortingAlgorithm.MergeSort(listString);
+            List<double> actualDouble = SortingAlgorithm.MergeSort(listDouble);
+            List<bool> actualBool = SortingAlgorithm.MergeSort(listBool);
+            List<char> actualChar = SortingAlgorithm.MergeSort(listChar);
+
+            Assert.Equal(expectedInt, actualInt);
+            Assert.Equal(expectedString, actualString);
+            Assert.Equal(expectedDouble, actualDouble);
+            Assert.Equal(expectedBool, actualBool);
+            Assert.Equal(expectedChar, actualChar);
+        }
+
+        [Fact]
+        public void QuickSortTests()
+        {
+            List<int> listInt = [2, 4, 3, 5, 1];
+            List<string> listString = ["d", "a", "e", "b", "c"];
+            List<double> listDouble = [2.2, 4.4, 3.3, 1.1, 5.5];
+            List<bool> listBool = [true, false, true, false, true];
+            List<char> listChar = ['c', 'b', 'a', 'e', 'd'];
+
+            List<int> expectedInt = [1, 2, 3, 4, 5];
+            List<string> expectedString = ["a", "b", "c", "d", "e"];
+            List<double> expectedDouble = [1.1, 2.2, 3.3, 4.4, 5.5];
+            List<bool> expectedBool = [false, false, true, true, true];
+            List<char> expectedChar = ['a', 'b', 'c', 'd', 'e'];
+
+            List<int> actualInt = SortingAlgorithm.QuickSort(listInt, 0, listInt.Count - 1);
+            List<string> actualString = SortingAlgorithm.QuickSort(listString, 0, listString.Count - 1);
+            List<double> actualDouble = SortingAlgorithm.QuickSort(listDouble, 0, listDouble.Count - 1);
+            List<bool> actualBool = SortingAlgorithm.QuickSort(listBool, 0, listBool.Count - 1);
+            List<char> actualChar = SortingAlgorithm.QuickSort(listChar, 0, listChar.Count - 1);
+
+            Assert.Equal(expectedInt, actualInt);
+            Assert.Equal(expectedString, actualString);
+            Assert.Equal(expectedDouble, actualDouble);
+            Assert.Equal(expectedBool, actualBool);
+            Assert.Equal(expectedChar, actualChar);
+        }
+
+        [Fact]
+        public void HeapSortTests()
+        {
+            List<int> listInt = [2, 4, 3, 5, 1];
+            List<string> listString = ["d", "a", "e", "b", "c"];
+            List<double> listDouble = [2.2, 4.4, 3.3, 1.1, 5.5];
+            List<bool> listBool = [true, false, true, false, true];
+            List<char> listChar = ['c', 'b', 'a', 'e', 'd'];
+
+            List<int> expectedInt = [1, 2, 3, 4, 5];
+            List<string> expectedString = ["a", "b", "c", "d", "e"];
+            List<double> expectedDouble = [1.1, 2.2, 3.3, 4.4, 5.5];
+            List<bool> expectedBool = [false, false, true, true, true];
+            List<char> expectedChar = ['a', 'b', 'c', 'd', 'e'];
+
+            List<int> actualInt = SortingAlgorithm.HeapSort(listInt);
+            List<string> actualString = SortingAlgorithm.HeapSort(listString);
+            List<double> actualDouble = SortingAlgorithm.HeapSort(listDouble);
+            List<bool> actualBool = SortingAlgorithm.HeapSort(listBool);
+            List<char> actualChar = SortingAlgorithm.HeapSort(listChar);
+
+            Assert.Equal(expectedInt, actualInt);
+            Assert.Equal(expectedString, actualString);
+            Assert.Equal(expectedDouble, actualDouble);
+            Assert.Equal(expectedBool, actualBool);
+            Assert.Equal(expectedChar, actualChar);
         }
     }
 }
