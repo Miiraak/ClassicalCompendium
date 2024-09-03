@@ -26,7 +26,6 @@ namespace ClassicalCompendium
         public static List<T> SelectionSort<T>(List<T> list) where T : IComparable<T>
         {
             int min;
-            T temp;
             for (int i = 0; i < list.Count - 1; i++)
             {
                 min = i;
