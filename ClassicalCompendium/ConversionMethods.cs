@@ -52,7 +52,7 @@ namespace ClassicalCompendium
 
             while (value > 0)
             {
-                ints.Add(value % toBase);  
+                ints.Add(value % toBase);
                 value = (value - (value % toBase)) / toBase;
             }
 

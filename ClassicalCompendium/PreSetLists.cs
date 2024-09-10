@@ -750,18 +750,18 @@ namespace ClassicalCompendium
             /// A list of the first 9 Mersenne Primal numbers.
             /// </summary>
             public static List<long> MersennePrimal = new List<long>
-            { 
-                3, 
-                7, 
-                31, 
-                127, 
-                8191, 
-                131071, 
-                524287, 
-                2147483647, 
-                2305843009213693951 
+            {
+                3,
+                7,
+                31,
+                127,
+                8191,
+                131071,
+                524287,
+                2147483647,
+                2305843009213693951
             };
-            
+
 
             /// <summary>
             /// This method will create a list with the N first Triangular numbers.

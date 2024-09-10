@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Runtime.Intrinsics.Arm;
-
-namespace ClassicalCompendium.Tests
+﻿namespace ClassicalCompendium.Tests
 {
     public class ConversionSystemTests
     {
