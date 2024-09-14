@@ -1,6 +1,6 @@
 ﻿namespace ClassicalCompendium.Tests
 {
-    public class PreSetListsTests
+    public class PresetListsTests
     {
         public class Time
         {
@@ -101,32 +101,32 @@
                 Assert.Empty(PresetLists.Numbers.PrimesN(1));
                 Assert.Equal(100, PresetLists.Numbers.PrimesN(100).Count);
                 Assert.Equal(200, PresetLists.Numbers.PrimesN(200).Count);
-                Assert.True(PresetLists.Numbers.PrimesN(5).SequenceEqual(new List<int> { 2, 3, 5, 7, 11 }));
+                Assert.True(PresetLists.Numbers.PrimesN(5).SequenceEqual([2, 3, 5, 7, 11]));
             }
 
             [Fact]
             public void FibonacciN()
             {
-                Assert.True(PresetLists.Numbers.FibonacciN(1).SequenceEqual(new List<int> { 0 }));
-                Assert.True(PresetLists.Numbers.FibonacciN(2).SequenceEqual(new List<int> { 0, 1 }));
-                Assert.True(PresetLists.Numbers.FibonacciN(3).SequenceEqual(new List<int> { 0, 1, 1 }));
-                Assert.True(PresetLists.Numbers.FibonacciN(4).SequenceEqual(new List<int> { 0, 1, 1, 2 }));
-                Assert.True(PresetLists.Numbers.FibonacciN(5).SequenceEqual(new List<int> { 0, 1, 1, 2, 3 }));
-                Assert.True(PresetLists.Numbers.FibonacciN(6).SequenceEqual(new List<int> { 0, 1, 1, 2, 3, 5 }));
-                Assert.True(PresetLists.Numbers.FibonacciN(7).SequenceEqual(new List<int> { 0, 1, 1, 2, 3, 5, 8 }));
+                Assert.True(PresetLists.Numbers.FibonacciN(1).SequenceEqual([0]));
+                Assert.True(PresetLists.Numbers.FibonacciN(2).SequenceEqual([0, 1]));
+                Assert.True(PresetLists.Numbers.FibonacciN(3).SequenceEqual([0, 1, 1]));
+                Assert.True(PresetLists.Numbers.FibonacciN(4).SequenceEqual([0, 1, 1, 2]));
+                Assert.True(PresetLists.Numbers.FibonacciN(5).SequenceEqual([0, 1, 1, 2, 3]));
+                Assert.True(PresetLists.Numbers.FibonacciN(6).SequenceEqual([0, 1, 1, 2, 3, 5]));
+                Assert.True(PresetLists.Numbers.FibonacciN(7).SequenceEqual([0, 1, 1, 2, 3, 5, 8]));
                 Assert.Equal(50, PresetLists.Numbers.FibonacciN(50).Count);
             }
 
             [Fact]
             public void MercenneTests()
             {
-                Assert.True(PresetLists.Numbers.MersenneN(1).SequenceEqual(new List<int> { 0 }));
-                Assert.True(PresetLists.Numbers.MersenneN(2).SequenceEqual(new List<int> { 0, 1 }));
-                Assert.True(PresetLists.Numbers.MersenneN(3).SequenceEqual(new List<int> { 0, 1, 3 }));
-                Assert.True(PresetLists.Numbers.MersenneN(4).SequenceEqual(new List<int> { 0, 1, 3, 7 }));
-                Assert.True(PresetLists.Numbers.MersenneN(5).SequenceEqual(new List<int> { 0, 1, 3, 7, 15 }));
-                Assert.True(PresetLists.Numbers.MersenneN(6).SequenceEqual(new List<int> { 0, 1, 3, 7, 15, 31 }));
-                Assert.True(PresetLists.Numbers.MersenneN(7).SequenceEqual(new List<int> { 0, 1, 3, 7, 15, 31, 63 }));
+                Assert.True(PresetLists.Numbers.MersenneN(1).SequenceEqual([0]));
+                Assert.True(PresetLists.Numbers.MersenneN(2).SequenceEqual([0, 1]));
+                Assert.True(PresetLists.Numbers.MersenneN(3).SequenceEqual([0, 1, 3]));
+                Assert.True(PresetLists.Numbers.MersenneN(4).SequenceEqual([0, 1, 3, 7]));
+                Assert.True(PresetLists.Numbers.MersenneN(5).SequenceEqual([0, 1, 3, 7, 15]));
+                Assert.True(PresetLists.Numbers.MersenneN(6).SequenceEqual([0, 1, 3, 7, 15, 31]));
+                Assert.True(PresetLists.Numbers.MersenneN(7).SequenceEqual([0, 1, 3, 7, 15, 31, 63]));
                 Assert.Equal(50, PresetLists.Numbers.MersenneN(50).Count);
             }
         }

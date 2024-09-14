@@ -1,127 +1,63 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ClassicalCompendium
 {
     public class ConversionMethods
     {
         /// <summary>
-        /// This method will convert a decimal number to a binary number.
+        /// This method converts a number from one base to another. Works with bases 2-10.
         /// </summary>
-        /// <param name="decimalNumber">The decimal number to convert.</param>
-        /// <returns>The binary number.</returns>
-        public static string DecimalToBinary(int decimalNumber)
-        {
-            return Convert.ToString(decimalNumber, 2);
-        }
-
-        /// <summary>
-        /// This method will convert a decimal number to a hexadecimal number.
-        /// </summary>
-        /// <param name="decimalNumber">The decimal number to convert.</param>
-        /// <returns>The hexadecimal number.</returns>
-        public static string DecimalToHexadecimal(int decimalNumber)
-        {
-            return Convert.ToString(decimalNumber, 16);
-        }
-
-        /// <summary>
-        /// This method will convert a decimal number to an octal number.
-        /// </summary>
-        /// <param name="decimalNumber">The decimal number to convert.</param>
-        /// <returns>The octal number.</returns>
-        public static string DecimalToOctal(int decimalNumber)
-        {
-            return Convert.ToString(decimalNumber, 8);
-        }
-
-        /// <summary>
-        /// This method will convert a binary number to a decimal number.
-        /// </summary>
-        /// <param name="binaryNumber">The binary number to convert.</param>
-        /// <returns>The decimal number.</returns>
-        public static int BinaryToDecimal(string binaryNumber)
-        {
-            return Convert.ToInt32(binaryNumber, 2);
-        }
-
-        /// <summary>
-        /// This method will convert a binary number to a hexadecimal number.
-        /// </summary>
-        /// <param name="binaryNumber">The binary number to convert.</param>
-        /// <returns>The hexadecimal number.</returns>
-        public static string BinaryToHexadecimal(string binaryNumber)
-        {
-            return Convert.ToString(Convert.ToInt32(binaryNumber, 2), 16);
-        }
-
-        /// <summary>
-        /// This method will convert a binary number to an octal number.
-        /// </summary>
-        /// <param name="binaryNumber">The binary number to convert.</param>
-        /// <returns>The octal number.</returns>
-        public static string BinaryToOctal(string binaryNumber)
-        {
-            return Convert.ToString(Convert.ToInt32(binaryNumber, 2), 8);
-        }
-
-        /// <summary>
-        /// This method will convert an octal number to a decimal number.
-        /// </summary>
-        /// <param name="hexadecimalNumber"></param>
+        /// <param name="fromBase">The base of the number to be converted.</param>
+        /// <param name="toBase">The base to convert to.</param>
+        /// <param name="value">The value to convert.</param>
         /// <returns></returns>
-        public static int HexadecimalToDecimal(string hexadecimalNumber)
+        public static string BaseToBase(int fromBase, int toBase, string value)
         {
-            return Convert.ToInt32(hexadecimalNumber, 16);
+            return DecimalToBase(toBase, FromToDecimal(fromBase, value));
         }
 
         /// <summary>
-        /// This method will convert an octal number to a binary number.
+        /// This method converts a number from a base to decimal.  
         /// </summary>
-        /// <param name="hexadecimalNumber"></param>
+        /// <param name="fromBase">The base of the number to be converted.</param>
+        /// <param name="value">The value to convert.</param>
         /// <returns></returns>
-        public static string HexadecimalToBinary(string hexadecimalNumber)
+        private static int FromToDecimal(int fromBase, string value)    // FromBase = 2, value = "100"
         {
-            return Convert.ToString(Convert.ToInt32(hexadecimalNumber, 16), 2);
+            int[] intArray = value.Select(c => int.Parse(c.ToString())).ToArray();
+            Array.Reverse(intArray);
+            int result = 0;
+            int j = 0;
+
+            foreach (int i in intArray)
+            {
+                result += (int)Math.Pow(fromBase, j) * i;
+                j++;
+            }
+
+            return (int)result;
         }
 
         /// <summary>
-        /// This method will convert an octal number to a binary number.
+        /// This method converts a decimal number to a number of a specified base.
         /// </summary>
-        /// <param name="hexadecimalNumber"></param>
+        /// <param name="toBase">The base to convert to.</param>
+        /// <param name="value">The value to convert.</param>
         /// <returns></returns>
-        public static string HexadecimalToOctal(string hexadecimalNumber)
+        private static string DecimalToBase(int toBase, int value)
         {
-            return Convert.ToString(Convert.ToInt32(hexadecimalNumber, 16), 8);
-        }
+            List<int> ints = new List<int>();
 
-        /// <summary>
-        ///  This method will convert an octal number to a decimal number.
-        /// </summary>
-        /// <param name="octalNumber"></param>
-        /// <returns></returns>
-        public static int OctalToDecimal(string octalNumber)
-        {
-            return Convert.ToInt32(octalNumber, 8);
-        }
+            while (value > 0)
+            {
+                ints.Add(value % toBase);
+                value = (value - (value % toBase)) / toBase;
+            }
 
-        /// <summary>
-        /// This method will convert an octal number to a binary number.
-        /// </summary>
-        /// <param name="octalNumber"></param>
-        /// <returns></returns>
-        public static string OctalToBinary(string octalNumber)
-        {
-            return Convert.ToString(Convert.ToInt32(octalNumber, 8), 2);
-        }
-
-        /// <summary>
-        /// This method will convert an octal number to a hexadecimal number.
-        /// </summary>
-        /// <param name="octalNumber"></param>
-        /// <returns></returns>
-        public static string OctalToHexadecimal(string octalNumber)
-        {
-            return Convert.ToString(Convert.ToInt32(octalNumber, 8), 16);
+            ints.Reverse();
+            return string.Join("", ints);
         }
     }
 }

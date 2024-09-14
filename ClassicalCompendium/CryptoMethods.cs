@@ -5,10 +5,10 @@ namespace ClassicalCompendium
     public class CryptoMethods
     {
         /// <summary>
-        /// This method will return the converted string with the Cesar code. 
+        /// This method will take a string and a shift key to the converted string with the Cesar code. 
         /// </summary>
         /// <param name="shift">Key is the number of shift.</param>
-        /// <param name="value">Value is the string to code.</param>
+        /// <param name="value">The string to code.</param>
         /// <returns>A string syphered with the Cesar code.</returns>
         // Code by Orwell at https://openclassrooms.com/forum/sujet/c-probleme-de-chiffrement-de-cesare-94282
         public static string EncodeWithCesar(int shift, string value)
@@ -31,6 +31,11 @@ namespace ClassicalCompendium
             return new String(chars);
         }
 
+        /// <summary>
+        /// This method will take a string and convert the string with the AtBash code.
+        /// </summary>
+        /// <param name="Text">The string to code.</param>
+        /// <returns>A string syphered with AtBash.</returns>
         public static string EncodeWithAtBash(string Text)
         {
             string output = "";

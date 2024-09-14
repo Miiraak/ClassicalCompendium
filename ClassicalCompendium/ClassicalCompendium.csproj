@@ -5,9 +5,9 @@
     <SignAssembly>False</SignAssembly>
     <Version>1.0.4.5</Version>
     <Company></Company>
-    <Description>A collection of widely-used C# utility methods </Description>
+    <Description>A collection of common C# utility methods </Description>
 	<EnablePackageValidation>true</EnablePackageValidation>
-	<PackageTags>Lists; Calculator; Package; Cryptography; CSharp; Random; Conversion; Hash; Compendium</PackageTags>
+	<PackageTags>Lists; Calculator; Package; Cryptography; CSharp; Random; Conversion; Sorting, Hash; Compendium</PackageTags>
 	<RepositoryUrl>https://github.com/Miiraak/ClassicalCompendium</RepositoryUrl>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageLicenseFile>LICENSE</PackageLicenseFile>
@@ -22,6 +22,7 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <Optimize>True</Optimize>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
