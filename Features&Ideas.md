@@ -11,31 +11,32 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ## Table of content :
 - [Random Number Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#1-random-number-utilities)
-- [Preset lists](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features%26Ideas.md#2-preset-lists)
-- [String Manipulation](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#2-string-manipulation)
-- [Date and Time Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#3-date-and-time-utilities)
-- [File and Directory Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#4-file-and-directory-utilities)
-- [Collection Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#5-collection-utilities)
-- [Math Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#6-math-utilities)
-- [Validation Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#7-validation-utilities)
-- [Conversion Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#8-conversion-utilities)
-- [Reflection and Type Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#9-reflection-and-type-utilities)
-- [Threading and Asynchronous Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#10-threading-and-asynchronous-utilities)
-- [Network Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#11-network-utilities)
-- [Data Structure Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#12-data-structure-utilities)
-- [Serialization and Deserialization](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#13-serialization-and-deserialization)
-- [Encryption](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#14-encryption-and-hashing)
-- [Hashing](...)
-- [Error Handling Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#15-error-handling-utilities)
-- [Configuration and Environment Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#16-configuration-and-environment-utilities)
-- [Localization and Internationalization](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#17-localization-and-internationalization)
-- [GUI and User Interaction Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#18-gui-and-user-interaction-utilities)
-- [Debugging and Diagnostics](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#19-debugging-and-diagnostics)
-- [Miscellaneous Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#20-miscellaneous-utilities)
+- [Preset lists](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#2-preset-lists)
+- [Case Methods](https://github.com/Miiraak/ClassicalCompendium/bloc/master/Freatures&Ideas.md#3-case-methods)
+- [String Manipulation](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#4-string-manipulation)
+- [Date and Time Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#5-date-and-time-utilities)
+- [File and Directory Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#6-file-and-directory-utilities)
+- [Collection Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#7-collection-utilities)
+- [Math Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#8-math-utilities)
+- [Validation Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#9-validation-utilities)
+- [Conversion Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#10-conversion-utilities)
+- [Reflection and Type Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#11-reflection-and-type-utilities)
+- [Threading and Asynchronous Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#12-threading-and-asynchronous-utilities)
+- [Network Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#13-network-utilities)
+- [Data Structure Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#14-data-structure-utilities)
+- [Serialization and Deserialization](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#15-serialization-and-deserialization)
+- [Encryption](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#16-encryption)
+- [Hashing](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#17-hashing)
+- [Error Handling Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#18-error-handling-utilities)
+- [Configuration and Environment Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#19-configuration-and-environment-utilities)
+- [Localization and Internationalization](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#20-localization-and-internationalization)
+- [GUI and User Interaction Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#21-gui-and-user-interaction-utilities)
+- [Debugging and Diagnostics](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#22-debugging-and-diagnostics)
+- [Miscellaneous Utilities](https://github.com/Miiraak/ClassicalCompendium/blob/master/Features&Ideas.md#23-miscellaneous-utilities)
 
 ---
 
-### 1. Random Number Utilities
+### Random Number Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -50,7 +51,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 2. Preset Lists
+### Preset Lists
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -72,9 +73,30 @@ Feel free the discuss about them, or make request for non listed ones.
 | 🟣 | A List<string> of common used password. |
 | ⚫ | ... |
 
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
+
 ---
 
-### 3. String Manipulation
+### Case Methods
+| Status :    | Purpose : |
+| :-------- | :------- |
+| 🟣 | Apply Sentence Case on string. |
+| 🟣 | Apply Title Case on string. |
+| 🟣 | Apply Start Case on string. |
+| 🟣 | Apply All Caps Case on string. |
+| 🟣 | Apply All Lower Case on string. |
+| 🟣 | Apply Dromedary Case on string. |
+| 🟣 | Apply Snake Case on string. |
+| 🟣 | Apply Kebab Case on string. |
+| 🟣 | Apply Camel Case on string. |
+| 🟣 | Apply Studly Case on string. |
+| ⚫ | ... |
+
+([Back to top ☝️](https://github.com/Miiraak/ClassicalCompendium/tree/master#features--ideas-in-development))
+
+---
+
+### String Manipulation
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -91,7 +113,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 4. Date and Time Utilities
+### Date and Time Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -109,7 +131,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 5. File and Directory Utilities
+### File and Directory Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -126,7 +148,7 @@ Feel free the discuss about them, or make request for non listed ones.
     
 ---
 
-### 6. Collection Utilities
+### Collection Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -145,7 +167,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 7. Math Utilities
+### Math Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -168,7 +190,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 8. Validation Utilities
+### Validation Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -183,7 +205,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 9. Conversion Utilities
+### Conversion Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -210,7 +232,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 10. Reflection and Type Utilities
+### Reflection and Type Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -227,7 +249,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 11. Threading and Asynchronous Utilities
+### Threading and Asynchronous Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -245,7 +267,7 @@ Feel free the discuss about them, or make request for non listed ones.
     
 ---
 
-### 12. Network Utilities
+### Network Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -263,7 +285,7 @@ Feel free the discuss about them, or make request for non listed ones.
     
 ---
 
-### 13. Data Structure Utilities
+### Data Structure Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -281,7 +303,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 14. Serialization and Deserialization
+### Serialization and Deserialization
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -296,7 +318,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 15. Encryption
+### Encryption
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -315,7 +337,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 16. Hashing
+### Hashing
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -359,7 +381,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 17. Error Handling Utilities
+### Error Handling Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -374,7 +396,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 18. Configuration and Environment Utilities
+### Configuration and Environment Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -390,7 +412,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 19. Localization and Internationalization
+### Localization and Internationalization
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -406,7 +428,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 20. GUI and User Interaction Utilities
+### GUI and User Interaction Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -422,7 +444,7 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 21. Debugging and Diagnostics
+### Debugging and Diagnostics
 
 | Status :    | Purpose : |
 | :-------- | :------- |
@@ -438,7 +460,8 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
-### 22. Miscellaneous Utilities
+
+### Miscellaneous Utilities
 
 | Status :    | Purpose : |
 | :-------- | :------- |
