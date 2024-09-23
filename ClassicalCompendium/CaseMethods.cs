@@ -14,7 +14,7 @@ namespace ClassicalCompendium
         {
             string[] words = input.ToLowerInvariant().Split(' ');
             words = words.Select((word, index) => index == 0 ? char.ToUpperInvariant(word[0]) + word.Substring(1) : word).ToArray();
-            return string.Join(" ", words); 
+            return string.Join(" ", words);
         }
 
         /// <summary>
