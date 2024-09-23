@@ -8,6 +8,7 @@ ClassicalCompendium brings together a collection of classic C# utility methods, 
 Whether you're dealing with string manipulations, collection handling, date-time operations, or other common tasks, CommonCodeCompendium has you covered with a reliable set of tools. Perfect for developers looking to streamline their workflow and maintain cleaner codebases, this package is your go-to resource for essential utilities.
 
 ## Features / Ideas in development
+- [ **Case Methods**] : *Some methods to change the case of a string*
 - [ **Preset lists** ] : *Essential or commun lists for security, math calculation, and validating strings.*
 - [ **Hash algorithm** ] : *Simplify uses of hash algorithm, from CRC to keyed hash.*
 - [ **Date-Time Operations** ] : *Simplified date and time calculations, parsing, and formatting.*  
@@ -23,7 +24,7 @@ Before running the project, make sure you have the following installed:
 
 ## Usage
 ```
-dotnet add package ClassicalCompendium --version 1.0.4.5
+dotnet add package ClassicalCompendium --version 1.0.6
 ```
 
 ## Contributing
