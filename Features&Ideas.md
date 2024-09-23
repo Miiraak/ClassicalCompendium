@@ -337,6 +337,14 @@ Feel free the discuss about them, or make request for non listed ones.
 
 ---
 
+### Encryption
+| Status :    | Purpose : |
+| :-------- | :------- |
+| 🟣 | Ceasar Cypher |
+| 🟣 | At Bash |
+| ⚫ | ... |
+---
+
 ### Hashing
 
 | Status :    | Purpose : |
